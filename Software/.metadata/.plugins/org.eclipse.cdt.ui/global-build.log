@@ -1,0 +1,17 @@
+17:58:50 **** Incremental Build of configuration Debug for project PiTank ****
+make all 
+make --no-print-directory pre-build
+cp "../src/hal/pi-linux/bsp/bsp.h" "../src/hal/pi-linux/include"; cp "../src/hal/pi-linux/drivers/"*/*.h "../src/hal/pi-linux/include";
+ 
+make --no-print-directory main-build
+Building file: ../src/hal/pi-linux/bsp/bsp.c
+Invoking: GCC C Compiler
+gcc -I"C:\workspace\raspberry-pi\PiTank\src\include" -I"C:\workspace\raspberry-pi\PiTank\src\hal\pi-linux\include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hal/pi-linux/bsp/bsp.d" -MT"src/hal/pi-linux/bsp/bsp.o" -o "src/hal/pi-linux/bsp/bsp.o" "../src/hal/pi-linux/bsp/bsp.c"
+Finished building: ../src/hal/pi-linux/bsp/bsp.c
+ 
+Building target: PiTank
+Invoking: GCC C++ Linker
+g++  -o "PiTank"  ./src/hal/pi-linux/drivers/pwm/pwm.o  ./src/hal/pi-linux/bsp/bsp.o  ./src/app/motor_control.o   -lwiringPi
+Finished building target: PiTank
+ 
+> Shell Completed (exit code = 0)
