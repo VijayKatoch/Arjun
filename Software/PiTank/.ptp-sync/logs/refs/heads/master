@@ -1,58 +1,165 @@
-0000000000000000000000000000000000000000 6eb6ff79260dafb76f29d15d25e722ab9f564314 katoc <katoc@Hamsah.fritz.box> 1545861410 +0100	commit (initial): Eclipse Automatic Commit
-6eb6ff79260dafb76f29d15d25e722ab9f564314 5f932ddba83f896238e996fa3bc8a04ec809fe8a katoc <katoc@Hamsah.fritz.box> 1545861410 +0100	commit: Eclipse Automatic Commit
-5f932ddba83f896238e996fa3bc8a04ec809fe8a 9f0c746b0e5a39fda6720ee5633de75b80071f77 katoc <katoc@Hamsah.fritz.box> 1545861413 +0100	merge refs/remotes/eclipse_auto/master: Merge made by recursive.
-9f0c746b0e5a39fda6720ee5633de75b80071f77 633352ac40d923cc565eaa33d752ee4539130e86 katoc <katoc@Hamsah.fritz.box> 1545861423 +0100	commit: Eclipse Automatic Commit
-633352ac40d923cc565eaa33d752ee4539130e86 6c883abf28cae8bb2bb0a8d2544ab82b93ff3f97 katoc <katoc@Hamsah.fritz.box> 1545861516 +0100	commit: Eclipse Automatic Commit
-6c883abf28cae8bb2bb0a8d2544ab82b93ff3f97 a90f75ea8fb0db406dd4f8cb45cb5ba700174387 katoc <katoc@Hamsah.fritz.box> 1545861534 +0100	commit: Eclipse Automatic Commit
-a90f75ea8fb0db406dd4f8cb45cb5ba700174387 26499b59f13d9c7b574130789807ff91d67be632 katoc <katoc@Hamsah.fritz.box> 1545861575 +0100	commit: Eclipse Automatic Commit
-26499b59f13d9c7b574130789807ff91d67be632 cad0823d9bcc43fa3192d767c2be6076c82336bb katoc <katoc@Hamsah.fritz.box> 1545861605 +0100	commit: Eclipse Automatic Commit
-cad0823d9bcc43fa3192d767c2be6076c82336bb 99b4939af4cb6d95fcaefad94d50fa103fde17d3 katoc <katoc@Hamsah.fritz.box> 1545861625 +0100	commit: Eclipse Automatic Commit
-99b4939af4cb6d95fcaefad94d50fa103fde17d3 c855b1287244d831f928f9bf0a0e847ad42b327b katoc <katoc@Hamsah.fritz.box> 1545861638 +0100	commit: Eclipse Automatic Commit
-c855b1287244d831f928f9bf0a0e847ad42b327b 825da9a5b4129b9fe1a66f6fc784686189338306 katoc <katoc@Hamsah.fritz.box> 1545861657 +0100	commit: Eclipse Automatic Commit
-825da9a5b4129b9fe1a66f6fc784686189338306 28747b7ba1b50ecc8b0ae70759613cf8d6c9f0c7 katoc <katoc@Hamsah.fritz.box> 1545861673 +0100	commit: Eclipse Automatic Commit
-28747b7ba1b50ecc8b0ae70759613cf8d6c9f0c7 96c860c69ea9f9077806a47a8d51d11057cbfb40 katoc <katoc@Hamsah.fritz.box> 1545861691 +0100	commit: Eclipse Automatic Commit
-96c860c69ea9f9077806a47a8d51d11057cbfb40 05741b5a584b41685f11b78adde61009758c0b8f katoc <katoc@Hamsah.fritz.box> 1545862209 +0100	commit: Eclipse Automatic Commit
-05741b5a584b41685f11b78adde61009758c0b8f 509d47738eb28b0f8d7889ace722ec66716510b9 katoc <katoc@Hamsah.fritz.box> 1545862221 +0100	commit: Eclipse Automatic Commit
-509d47738eb28b0f8d7889ace722ec66716510b9 0170823bec2d83a96f3fb985eabdefc779028b12 katoc <katoc@Hamsah.fritz.box> 1545862235 +0100	commit: Eclipse Automatic Commit
-0170823bec2d83a96f3fb985eabdefc779028b12 27e2c8270e69d81f7df4f8223c6281760ce5be15 katoc <katoc@Hamsah.fritz.box> 1545862268 +0100	commit: Eclipse Automatic Commit
-27e2c8270e69d81f7df4f8223c6281760ce5be15 52ae42901380e4153ebf17f5cfa9eae163213ef8 katoc <katoc@Hamsah.fritz.box> 1545862337 +0100	commit: Eclipse Automatic Commit
-52ae42901380e4153ebf17f5cfa9eae163213ef8 33bf4bbb9006adf71c335bf93ab594e521778a7d katoc <katoc@Hamsah.fritz.box> 1545862369 +0100	commit: Eclipse Automatic Commit
-33bf4bbb9006adf71c335bf93ab594e521778a7d f3f68528dba71251051143c81dc2941267ff8c0b katoc <katoc@Hamsah.fritz.box> 1545862392 +0100	commit: Eclipse Automatic Commit
-f3f68528dba71251051143c81dc2941267ff8c0b 4c92e3a05c8107bad35f8300bca8dbfb1bb046c6 katoc <katoc@Hamsah.fritz.box> 1545862424 +0100	commit: Eclipse Automatic Commit
-4c92e3a05c8107bad35f8300bca8dbfb1bb046c6 e896459f17e4942e70cda44155525bbbfb9be85d katoc <katoc@Hamsah.fritz.box> 1545862455 +0100	commit: Eclipse Automatic Commit
-e896459f17e4942e70cda44155525bbbfb9be85d 5f82730f3fd36b746849d91f2bcc4dd978052a8b katoc <katoc@Hamsah.fritz.box> 1545862506 +0100	commit: Eclipse Automatic Commit
-5f82730f3fd36b746849d91f2bcc4dd978052a8b 6399e8f66c3c18b04910b96b2dc5ee3663dc0807 katoc <katoc@Hamsah.fritz.box> 1545862518 +0100	commit: Eclipse Automatic Commit
-6399e8f66c3c18b04910b96b2dc5ee3663dc0807 bdee8c38d6dae8df5d7440634d928467b027b9d1 katoc <katoc@Hamsah.fritz.box> 1545862559 +0100	commit: Eclipse Automatic Commit
-bdee8c38d6dae8df5d7440634d928467b027b9d1 8e6f01738ec4b266049832e17cd6d42ee9030a33 katoc <katoc@Hamsah.fritz.box> 1545862559 +0100	commit: Eclipse Automatic Commit
-8e6f01738ec4b266049832e17cd6d42ee9030a33 2d1ef6d2e2ac1f366c48963a8055efef03379734 katoc <katoc@Hamsah.fritz.box> 1545862723 +0100	commit: Eclipse Automatic Commit
-2d1ef6d2e2ac1f366c48963a8055efef03379734 ae2407530aa55853179560b5972b88d086051556 katoc <katoc@Hamsah.fritz.box> 1545862725 +0100	commit: Eclipse Automatic Commit
-ae2407530aa55853179560b5972b88d086051556 9b7a2c362a5d4d6db3cd8d0cea478a25ee7a210c katoc <katoc@Hamsah.fritz.box> 1545862738 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
-9b7a2c362a5d4d6db3cd8d0cea478a25ee7a210c d73f13d675942d520e977075ac6060c639c9d0cf katoc <katoc@Hamsah.fritz.box> 1545862792 +0100	commit: Eclipse Automatic Commit
-d73f13d675942d520e977075ac6060c639c9d0cf 0a1a094ad38753a9c0aa4b88e0a04078350cef88 katoc <katoc@Hamsah.fritz.box> 1545862830 +0100	commit: Eclipse Automatic Commit
-0a1a094ad38753a9c0aa4b88e0a04078350cef88 c4884ff267c15c9ef8a40513b4f50769d376ee58 katoc <katoc@Hamsah.fritz.box> 1545862846 +0100	commit: Eclipse Automatic Commit
-c4884ff267c15c9ef8a40513b4f50769d376ee58 644776634f3170fd6d9763691aa7328914bbb1f6 katoc <katoc@Hamsah.fritz.box> 1545862869 +0100	commit: Eclipse Automatic Commit
-644776634f3170fd6d9763691aa7328914bbb1f6 385969e9af571a568e20b0453b918ae9aa7e4e30 katoc <katoc@Hamsah.fritz.box> 1545862908 +0100	commit: Eclipse Automatic Commit
-385969e9af571a568e20b0453b918ae9aa7e4e30 cec6874743e2b46b826b78fae03d3de6f4707e8e katoc <katoc@Hamsah.fritz.box> 1545862921 +0100	commit: Eclipse Automatic Commit
-cec6874743e2b46b826b78fae03d3de6f4707e8e c7021fe3c4acf8261344c6e58c6e046ff6d59933 katoc <katoc@Hamsah.fritz.box> 1545862951 +0100	commit: Eclipse Automatic Commit
-c7021fe3c4acf8261344c6e58c6e046ff6d59933 c8982b2e0bbe5103dbbf677d2eb5cd973f5e34b1 katoc <katoc@Hamsah.fritz.box> 1545862966 +0100	commit: Eclipse Automatic Commit
-c8982b2e0bbe5103dbbf677d2eb5cd973f5e34b1 45ba6cbe9c7cfa32fa65884753cc54b4f0b10af4 katoc <katoc@Hamsah.fritz.box> 1545862983 +0100	commit: Eclipse Automatic Commit
-45ba6cbe9c7cfa32fa65884753cc54b4f0b10af4 d60e32d8a600ea2a31e17f38a426e739a04e00ea katoc <katoc@Hamsah.fritz.box> 1545862989 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
-d60e32d8a600ea2a31e17f38a426e739a04e00ea bfbe12ca4c5cda62fca7cee299e4aabeef78b1f5 katoc <katoc@Hamsah.fritz.box> 1545863044 +0100	commit: Eclipse Automatic Commit
-bfbe12ca4c5cda62fca7cee299e4aabeef78b1f5 69ec10ab7e3de1ee9a948142a3a1db6f676036c2 katoc <katoc@Hamsah.fritz.box> 1545863050 +0100	commit: Eclipse Automatic Commit
-69ec10ab7e3de1ee9a948142a3a1db6f676036c2 01e3eb304e5929e7ccc854bce7d62b2a44a0665f katoc <katoc@Hamsah.fritz.box> 1545863252 +0100	commit: Eclipse Automatic Commit
-01e3eb304e5929e7ccc854bce7d62b2a44a0665f e90b382c703a2279fe402764feb2bc42485e884b katoc <katoc@Hamsah.fritz.box> 1545863274 +0100	commit: Eclipse Automatic Commit
-e90b382c703a2279fe402764feb2bc42485e884b 35745ceddf8c3bec1ce4b40024b1b721c937b7c2 katoc <katoc@Hamsah.fritz.box> 1545863279 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
-35745ceddf8c3bec1ce4b40024b1b721c937b7c2 0ff3faf0359f15357e8fb430b4430c27816dcac9 katoc <katoc@Hamsah.fritz.box> 1545863307 +0100	commit: Eclipse Automatic Commit
-0ff3faf0359f15357e8fb430b4430c27816dcac9 e12be8765105f23d058e11d0b921efa36938db19 katoc <katoc@Hamsah.fritz.box> 1545863311 +0100	commit: Eclipse Automatic Commit
-e12be8765105f23d058e11d0b921efa36938db19 29cf7091cdeb05e279a7251bc4ef8bf39f86da3f katoc <katoc@Hamsah.fritz.box> 1545863338 +0100	commit: Eclipse Automatic Commit
-29cf7091cdeb05e279a7251bc4ef8bf39f86da3f d13e4d87f2eeb5cb60e51da16465c88221f765a5 katoc <katoc@Hamsah.fritz.box> 1545863354 +0100	commit: Eclipse Automatic Commit
-d13e4d87f2eeb5cb60e51da16465c88221f765a5 d8232ce1a17096fd0787c4efb21fc067dbee9c19 katoc <katoc@Hamsah.fritz.box> 1545863359 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
-d8232ce1a17096fd0787c4efb21fc067dbee9c19 c7fa0fe77b12f1b7643dd9c57192c213174bbd7c katoc <katoc@Hamsah.fritz.box> 1545863395 +0100	commit: Eclipse Automatic Commit
-c7fa0fe77b12f1b7643dd9c57192c213174bbd7c a5f5178c56f43681a4efa35ffaa755b047e7f987 katoc <katoc@Hamsah.fritz.box> 1545863399 +0100	commit: Eclipse Automatic Commit
-a5f5178c56f43681a4efa35ffaa755b047e7f987 5db9dcc491cbe1f5adc70f9e5706429f9c726e9b katoc <katoc@Hamsah.fritz.box> 1545863408 +0100	commit: Eclipse Automatic Commit
-5db9dcc491cbe1f5adc70f9e5706429f9c726e9b 785e23dfaf03773426baff9a0dd56ac7467688ca katoc <katoc@Hamsah.fritz.box> 1545863413 +0100	commit: Eclipse Automatic Commit
-785e23dfaf03773426baff9a0dd56ac7467688ca 873e7c69d718a0f5256d74b692bc24fafda33bf2 katoc <katoc@Hamsah.fritz.box> 1545929934 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
-873e7c69d718a0f5256d74b692bc24fafda33bf2 06ee6cdb2b2d673473b740074e6cd44c293007e5 katoc <katoc@Hamsah.fritz.box> 1545929971 +0100	commit: Eclipse Automatic Commit
-06ee6cdb2b2d673473b740074e6cd44c293007e5 5475a59629f5a62d91cc8ef599f6f8b18d7bbbdc katoc <katoc@Hamsah.fritz.box> 1545929996 +0100	commit: Eclipse Automatic Commit
-5475a59629f5a62d91cc8ef599f6f8b18d7bbbdc 5c3ceee20196188c29803f479afc644098f53136 katoc <katoc@Hamsah.fritz.box> 1545930167 +0100	commit: Eclipse Automatic Commit
-5c3ceee20196188c29803f479afc644098f53136 f044930d61a4fab77c52958ad61ef914b7b00685 katoc <katoc@Hamsah.fritz.box> 1545930188 +0100	commit: Eclipse Automatic Commit
+0000000000000000000000000000000000000000 7f52495189e2d055a8dee6b10db5878cb37b649b katoc <katoc@Hamsah.fritz.box> 1545936905 +0100	commit (initial): Eclipse Automatic Commit
+7f52495189e2d055a8dee6b10db5878cb37b649b 93dbb1665ba57428311da4342cbc6deeda41e9f3 katoc <katoc@Hamsah.fritz.box> 1545936906 +0100	commit: Eclipse Automatic Commit
+93dbb1665ba57428311da4342cbc6deeda41e9f3 b1008b605f1b5ffa3474141c8344c37cb05548e8 katoc <katoc@Hamsah.fritz.box> 1545936908 +0100	merge refs/remotes/eclipse_auto/master: Merge made by recursive.
+b1008b605f1b5ffa3474141c8344c37cb05548e8 b5ea2164882ec30310e9542f04e9d4b898b46228 katoc <katoc@Hamsah.fritz.box> 1545937168 +0100	commit: Eclipse Automatic Commit
+b5ea2164882ec30310e9542f04e9d4b898b46228 afbc250718496ede3415b7e7711a978d0ba943d9 katoc <katoc@Hamsah.fritz.box> 1545937192 +0100	commit: Eclipse Automatic Commit
+afbc250718496ede3415b7e7711a978d0ba943d9 e036d4393f84f398b1baaa8601e08878e48674ec katoc <katoc@Hamsah.fritz.box> 1545937206 +0100	commit: Eclipse Automatic Commit
+e036d4393f84f398b1baaa8601e08878e48674ec 1f6f4a880f84cd7714c91208c8e730019649e9d7 katoc <katoc@Hamsah.fritz.box> 1545937271 +0100	commit: Eclipse Automatic Commit
+1f6f4a880f84cd7714c91208c8e730019649e9d7 ae8e3813e1172e31793608345ae52be95873be28 katoc <katoc@Hamsah.fritz.box> 1545937310 +0100	commit: Eclipse Automatic Commit
+ae8e3813e1172e31793608345ae52be95873be28 79f01228c2a8ee79209590323d504f153a47ff51 katoc <katoc@Hamsah.fritz.box> 1545937336 +0100	commit: Eclipse Automatic Commit
+79f01228c2a8ee79209590323d504f153a47ff51 7927b83adbf8cbadee2c00ebb022e1bc1b91693f katoc <katoc@Hamsah.fritz.box> 1545937361 +0100	commit: Eclipse Automatic Commit
+7927b83adbf8cbadee2c00ebb022e1bc1b91693f f78d8225c92c2b2bc6e84c654a17afe73b617582 katoc <katoc@Hamsah.fritz.box> 1545937429 +0100	commit: Eclipse Automatic Commit
+f78d8225c92c2b2bc6e84c654a17afe73b617582 204a67dc534bb4a9f61f00378fab18dbadbd3c40 katoc <katoc@Hamsah.fritz.box> 1545937448 +0100	commit: Eclipse Automatic Commit
+204a67dc534bb4a9f61f00378fab18dbadbd3c40 576fe5064448c417954a6ad528428227cb34bbc8 katoc <katoc@Hamsah.fritz.box> 1545937476 +0100	commit: Eclipse Automatic Commit
+576fe5064448c417954a6ad528428227cb34bbc8 b512f82fb6696c21b9ba764d3480c4c600008683 katoc <katoc@Hamsah.fritz.box> 1545937730 +0100	commit: Eclipse Automatic Commit
+b512f82fb6696c21b9ba764d3480c4c600008683 b0107493bce961927decca4c6d345b0c16f6c964 katoc <katoc@Hamsah.fritz.box> 1545937767 +0100	commit: Eclipse Automatic Commit
+b0107493bce961927decca4c6d345b0c16f6c964 dbf9a3732b347e808b0523fd45bf2cf5e9409fd9 katoc <katoc@Hamsah.fritz.box> 1545937810 +0100	commit: Eclipse Automatic Commit
+dbf9a3732b347e808b0523fd45bf2cf5e9409fd9 edb69a333e87eae567ddd82ce192448223d5099a katoc <katoc@Hamsah.fritz.box> 1545938173 +0100	commit: Eclipse Automatic Commit
+edb69a333e87eae567ddd82ce192448223d5099a 15fdeff06a2a5b635eb4133e78a194c96b879448 katoc <katoc@Hamsah.fritz.box> 1545938189 +0100	commit: Eclipse Automatic Commit
+15fdeff06a2a5b635eb4133e78a194c96b879448 47f4429a8e6d2ef44a55fc7d2a895c2508afd248 katoc <katoc@Hamsah.fritz.box> 1545938308 +0100	commit: Eclipse Automatic Commit
+47f4429a8e6d2ef44a55fc7d2a895c2508afd248 473a7ad58069b50be11a97bc0e0422a66d227cf1 katoc <katoc@Hamsah.fritz.box> 1545938330 +0100	commit: Eclipse Automatic Commit
+473a7ad58069b50be11a97bc0e0422a66d227cf1 b70d4576b304d319e4917a27fb39b37ec5d8ee29 katoc <katoc@Hamsah.fritz.box> 1545938388 +0100	commit: Eclipse Automatic Commit
+b70d4576b304d319e4917a27fb39b37ec5d8ee29 82b2d6d48ebbf1f7a0fdd05a55a7dfb0a11cd1e1 katoc <katoc@Hamsah.fritz.box> 1545938415 +0100	commit: Eclipse Automatic Commit
+82b2d6d48ebbf1f7a0fdd05a55a7dfb0a11cd1e1 21ff5c12de37d2e0c6a9dbb0504250f3681afbe8 katoc <katoc@Hamsah.fritz.box> 1545938424 +0100	commit: Eclipse Automatic Commit
+21ff5c12de37d2e0c6a9dbb0504250f3681afbe8 72b36e3c5d8f9a5a8bba2ec430a13dce17c429d2 katoc <katoc@Hamsah.fritz.box> 1545939234 +0100	commit: Eclipse Automatic Commit
+72b36e3c5d8f9a5a8bba2ec430a13dce17c429d2 a04b69020a0b18a11e661d3df15316c5a2f2248d katoc <katoc@Hamsah.fritz.box> 1545939267 +0100	commit: Eclipse Automatic Commit
+a04b69020a0b18a11e661d3df15316c5a2f2248d 0994518013be76e9890d303b917bb61c7a5107c8 katoc <katoc@Hamsah.fritz.box> 1545939291 +0100	commit: Eclipse Automatic Commit
+0994518013be76e9890d303b917bb61c7a5107c8 cd95dcc4b395d1cc0e72d9e39193136ed1839d1c katoc <katoc@Hamsah.fritz.box> 1545939336 +0100	commit: Eclipse Automatic Commit
+cd95dcc4b395d1cc0e72d9e39193136ed1839d1c 2a43faf16c4979ad538b65c5bd461ae723a5b7cf katoc <katoc@Hamsah.fritz.box> 1545939337 +0100	commit: Eclipse Automatic Commit
+2a43faf16c4979ad538b65c5bd461ae723a5b7cf 4ac8757eadd076fa141075b1dce0400e8da6fc63 katoc <katoc@Hamsah.fritz.box> 1545939652 +0100	commit: Eclipse Automatic Commit
+4ac8757eadd076fa141075b1dce0400e8da6fc63 44e4f270b223cedafef6f4cc50d75096e1130f0e katoc <katoc@Hamsah.fritz.box> 1545940404 +0100	commit: Eclipse Automatic Commit
+44e4f270b223cedafef6f4cc50d75096e1130f0e 03ec5ad41400b53898e0f9fca1e86afffd6b8e0a katoc <katoc@Hamsah.fritz.box> 1545940405 +0100	commit: Eclipse Automatic Commit
+03ec5ad41400b53898e0f9fca1e86afffd6b8e0a 62fac13227f09f14eec0841dbf5217bc968cf0af katoc <katoc@Hamsah.fritz.box> 1545940456 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+62fac13227f09f14eec0841dbf5217bc968cf0af b3c73af4f4edadffaf328168f0911f7c95cd8d46 katoc <katoc@Hamsah.fritz.box> 1545940503 +0100	commit: Eclipse Automatic Commit
+b3c73af4f4edadffaf328168f0911f7c95cd8d46 3392c2d21fcc399793336ac5bade64e40ba9575c katoc <katoc@Hamsah.fritz.box> 1545940507 +0100	commit: Eclipse Automatic Commit
+3392c2d21fcc399793336ac5bade64e40ba9575c b074c3ea4d902f56ab9ea2f21540e4bcbbdccff3 katoc <katoc@Hamsah.fritz.box> 1545940532 +0100	commit: Eclipse Automatic Commit
+b074c3ea4d902f56ab9ea2f21540e4bcbbdccff3 0edc48f5f93f21962293b51b2ca8e978e11d2887 katoc <katoc@Hamsah.fritz.box> 1545940556 +0100	commit: Eclipse Automatic Commit
+0edc48f5f93f21962293b51b2ca8e978e11d2887 7a4adb55f86702902778ebd1ac197f83ed1a2e30 katoc <katoc@Hamsah.fritz.box> 1545940577 +0100	commit: Eclipse Automatic Commit
+7a4adb55f86702902778ebd1ac197f83ed1a2e30 b46782d5109ca0ec7f388bfbfc2667e9d16b3802 katoc <katoc@Hamsah.fritz.box> 1545943298 +0100	commit: Eclipse Automatic Commit
+b46782d5109ca0ec7f388bfbfc2667e9d16b3802 d1fe847a2a0191412e2208f44ac6453cab4a3ac7 katoc <katoc@Hamsah.fritz.box> 1545943304 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+d1fe847a2a0191412e2208f44ac6453cab4a3ac7 8680d12f7757fd030e5cf238f73fe2b5f8518524 katoc <katoc@Hamsah.fritz.box> 1545943309 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+8680d12f7757fd030e5cf238f73fe2b5f8518524 51a0ad899ae1e32faa329ea990ba110b7e6a6fe5 katoc <katoc@Hamsah.fritz.box> 1545943313 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+51a0ad899ae1e32faa329ea990ba110b7e6a6fe5 78f5d26a8eca5537a90f49e1f128d00f43b73565 katoc <katoc@Hamsah.fritz.box> 1545943347 +0100	commit: Eclipse Automatic Commit
+78f5d26a8eca5537a90f49e1f128d00f43b73565 cda768c2d322b58180903903c24de0500784c7a5 katoc <katoc@Hamsah.fritz.box> 1545943363 +0100	commit: Eclipse Automatic Commit
+cda768c2d322b58180903903c24de0500784c7a5 8e8e7070b3e1bf62be1fbf667fd715665eec2996 katoc <katoc@Hamsah.fritz.box> 1545943368 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+8e8e7070b3e1bf62be1fbf667fd715665eec2996 3df5e2b1f1056dd5a2ffa584cef0fa8de5b9aa6d katoc <katoc@Hamsah.fritz.box> 1545943593 +0100	commit: Eclipse Automatic Commit
+3df5e2b1f1056dd5a2ffa584cef0fa8de5b9aa6d 247ce32f08fd58eab4422419c4019f6b0c084691 katoc <katoc@Hamsah.fritz.box> 1545943604 +0100	commit: Eclipse Automatic Commit
+247ce32f08fd58eab4422419c4019f6b0c084691 b59a5f5ed7c16f05cece760a205c3aa8297337cb katoc <katoc@Hamsah.fritz.box> 1545944516 +0100	commit: Eclipse Automatic Commit
+b59a5f5ed7c16f05cece760a205c3aa8297337cb 1a8a88cb73c4fbca5f197a543a45bf252215244c katoc <katoc@Hamsah.fritz.box> 1545944586 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+1a8a88cb73c4fbca5f197a543a45bf252215244c 837268cc8c84560684bd7226abbf2dc2fb96f135 katoc <katoc@Hamsah.fritz.box> 1545944586 +0100	commit: Eclipse Automatic Commit
+837268cc8c84560684bd7226abbf2dc2fb96f135 1dcbb279c47265acb66b670507f4ee415a971ae7 katoc <katoc@Hamsah.fritz.box> 1545944587 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+1dcbb279c47265acb66b670507f4ee415a971ae7 381bacc46944af22f789fbff6e17562492c5acff katoc <katoc@Hamsah.fritz.box> 1545944857 +0100	commit: Eclipse Automatic Commit
+381bacc46944af22f789fbff6e17562492c5acff 6f6dfc8a26d4e35c8ec058f4fcc4579de0f6da72 katoc <katoc@Hamsah.fritz.box> 1545944900 +0100	commit: Eclipse Automatic Commit
+6f6dfc8a26d4e35c8ec058f4fcc4579de0f6da72 ae746a27590dd3ed9e716ea2a89d2a87296c97f1 katoc <katoc@Hamsah.fritz.box> 1545944906 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+ae746a27590dd3ed9e716ea2a89d2a87296c97f1 5b874ba786bcae2d587902f4171e94cf698e9adc katoc <katoc@Hamsah.fritz.box> 1545945031 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+5b874ba786bcae2d587902f4171e94cf698e9adc 88e9956d088eea45ae991ea14508ee381ad64d31 katoc <katoc@Hamsah.fritz.box> 1545945035 +0100	commit: Eclipse Automatic Commit
+88e9956d088eea45ae991ea14508ee381ad64d31 7743a2f97ccb527234e0f6fb428167fb3c082a31 katoc <katoc@Hamsah.fritz.box> 1545945035 +0100	merge refs/remotes/eclipse_auto/master: Merge made by recursive.
+7743a2f97ccb527234e0f6fb428167fb3c082a31 4f3ccb9ecd8075aac19f33d49413016e90f9347b katoc <katoc@Hamsah.fritz.box> 1545945109 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+4f3ccb9ecd8075aac19f33d49413016e90f9347b ed541f7787acfdd1739a372a3876459136250acd katoc <katoc@Hamsah.fritz.box> 1545945109 +0100	commit: Eclipse Automatic Commit
+ed541f7787acfdd1739a372a3876459136250acd 9c4c1589353ad1ef28fe3402ec40d9aca853ef85 katoc <katoc@Hamsah.fritz.box> 1545945111 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+9c4c1589353ad1ef28fe3402ec40d9aca853ef85 6ce2690995b92fdc43178f3304e2c9313e7cdbef katoc <katoc@Hamsah.fritz.box> 1545945244 +0100	commit: Eclipse Automatic Commit
+6ce2690995b92fdc43178f3304e2c9313e7cdbef ad2adf1f600ca402813bf87842ab04d7a60823bd katoc <katoc@Hamsah.fritz.box> 1545945250 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+ad2adf1f600ca402813bf87842ab04d7a60823bd 687a86a05586ce96c36e7de4452d2c0eee98b8a6 katoc <katoc@Hamsah.fritz.box> 1545945327 +0100	commit: Eclipse Automatic Commit
+687a86a05586ce96c36e7de4452d2c0eee98b8a6 5e3c0b27e108116cf43b5834d95c4e4a22b24b6b katoc <katoc@Hamsah.fritz.box> 1545985599 +0100	commit: Eclipse Automatic Commit
+5e3c0b27e108116cf43b5834d95c4e4a22b24b6b 3b82d211c993c3b085ad2ac7615279e954b49747 katoc <katoc@Hamsah.fritz.box> 1545985603 +0100	merge refs/remotes/eclipse_auto/master: Merge made by recursive.
+3b82d211c993c3b085ad2ac7615279e954b49747 adf127ff673024d14db28f4f74758bb83077a059 katoc <katoc@Hamsah.fritz.box> 1545985630 +0100	commit: Eclipse Automatic Commit
+adf127ff673024d14db28f4f74758bb83077a059 f78cd97a529ce98bd95e00615f21cef5cc89f7a3 katoc <katoc@Hamsah.fritz.box> 1545985821 +0100	commit: Eclipse Automatic Commit
+f78cd97a529ce98bd95e00615f21cef5cc89f7a3 8269ffe627a732198cf82ff0ed11eb4d1674a1bc katoc <katoc@Hamsah.fritz.box> 1545986257 +0100	commit: Eclipse Automatic Commit
+8269ffe627a732198cf82ff0ed11eb4d1674a1bc 395ee4bacbc98f4a023e5f31a4ce9c97f73f905c katoc <katoc@Hamsah.fritz.box> 1545986261 +0100	commit: Eclipse Automatic Commit
+395ee4bacbc98f4a023e5f31a4ce9c97f73f905c b3fec4ce8c967a5d61acf8e92f68ab8622d91f18 katoc <katoc@Hamsah.fritz.box> 1545986463 +0100	commit: Eclipse Automatic Commit
+b3fec4ce8c967a5d61acf8e92f68ab8622d91f18 a3f0bff0e078be42e7105c934dd781cf6559f85b katoc <katoc@Hamsah.fritz.box> 1545986477 +0100	commit: Eclipse Automatic Commit
+a3f0bff0e078be42e7105c934dd781cf6559f85b 43be2b60efd621a85980252cbc65ffd3b86725c6 katoc <katoc@Hamsah.fritz.box> 1545986754 +0100	commit: Eclipse Automatic Commit
+43be2b60efd621a85980252cbc65ffd3b86725c6 25c37c7707ab074aa3b04b0790905f4231251677 katoc <katoc@Hamsah.fritz.box> 1545986801 +0100	commit: Eclipse Automatic Commit
+25c37c7707ab074aa3b04b0790905f4231251677 3f42024cf76566fdc5c12f927c0b30447770aeee katoc <katoc@Hamsah.fritz.box> 1545986803 +0100	commit: Eclipse Automatic Commit
+3f42024cf76566fdc5c12f927c0b30447770aeee f65ad31c6ec0bb47511421b4a17603b13c21de28 katoc <katoc@Hamsah.fritz.box> 1545986808 +0100	commit: Eclipse Automatic Commit
+f65ad31c6ec0bb47511421b4a17603b13c21de28 4c410aa673c7575a92a2f2eb0d57a3b28593175a katoc <katoc@Hamsah.fritz.box> 1545987132 +0100	commit: Eclipse Automatic Commit
+4c410aa673c7575a92a2f2eb0d57a3b28593175a 45e1df64026e00d98036ea37b870322e5c4b2461 katoc <katoc@Hamsah.fritz.box> 1545987214 +0100	commit: Eclipse Automatic Commit
+45e1df64026e00d98036ea37b870322e5c4b2461 9c32dc207f89355d7e5a165e58312246d29c8763 katoc <katoc@Hamsah.fritz.box> 1545987386 +0100	commit: Eclipse Automatic Commit
+9c32dc207f89355d7e5a165e58312246d29c8763 22ecd13848ad3540b1527042bdddca903bfa0154 katoc <katoc@Hamsah.fritz.box> 1545987466 +0100	commit: Eclipse Automatic Commit
+22ecd13848ad3540b1527042bdddca903bfa0154 283601fb4cc1994d2236eb98ab91f4044c0d9298 katoc <katoc@Hamsah.fritz.box> 1545992405 +0100	commit: Eclipse Automatic Commit
+283601fb4cc1994d2236eb98ab91f4044c0d9298 18b0e19293f42b65051d4dd4aeffdeb60e0144f0 katoc <katoc@Hamsah.fritz.box> 1545993471 +0100	commit: Eclipse Automatic Commit
+18b0e19293f42b65051d4dd4aeffdeb60e0144f0 900180c5eaa2d3d4aa18f9296d4b5faae61d2396 katoc <katoc@Hamsah.fritz.box> 1545993475 +0100	merge refs/remotes/eclipse_auto/master: Merge made by recursive.
+900180c5eaa2d3d4aa18f9296d4b5faae61d2396 85eb2e3366af252c91625b22957839c3229b7123 katoc <katoc@Hamsah.fritz.box> 1545993530 +0100	commit: Eclipse Automatic Commit
+85eb2e3366af252c91625b22957839c3229b7123 60861a89af1c8b7930f9324c0fbd348435485848 katoc <katoc@Hamsah.fritz.box> 1545993827 +0100	commit: Eclipse Automatic Commit
+60861a89af1c8b7930f9324c0fbd348435485848 809cdaa2fe8c8405a74b20d2a680457938332116 katoc <katoc@Hamsah.fritz.box> 1545994210 +0100	commit: Eclipse Automatic Commit
+809cdaa2fe8c8405a74b20d2a680457938332116 499e4cb2e5d94891a884bdbc311d0adb0731d38b katoc <katoc@Hamsah.fritz.box> 1545994226 +0100	commit: Eclipse Automatic Commit
+499e4cb2e5d94891a884bdbc311d0adb0731d38b 5acede5d0b326212e36164447a6d2e70b2a9afd0 katoc <katoc@Hamsah.fritz.box> 1545994233 +0100	commit: Eclipse Automatic Commit
+5acede5d0b326212e36164447a6d2e70b2a9afd0 4d4ebd8e86a35944005e9088341e747164edcee6 katoc <katoc@Hamsah.fritz.box> 1545994233 +0100	merge refs/remotes/eclipse_auto/master: Merge made by recursive.
+4d4ebd8e86a35944005e9088341e747164edcee6 bb816da26362f6f67f54f66622e8283633f145c5 katoc <katoc@Hamsah.fritz.box> 1545994287 +0100	commit: Eclipse Automatic Commit
+bb816da26362f6f67f54f66622e8283633f145c5 8a22f0b4c39c13eea434b523d4dc588306342558 katoc <katoc@Hamsah.fritz.box> 1545994294 +0100	commit: Eclipse Automatic Commit
+8a22f0b4c39c13eea434b523d4dc588306342558 c4415128aa7b55e0d24e18385dd0897e0c5d7047 katoc <katoc@Hamsah.fritz.box> 1545994943 +0100	commit: Eclipse Automatic Commit
+c4415128aa7b55e0d24e18385dd0897e0c5d7047 b26ff628b842fe3c4d15823891af5b1bf572279b katoc <katoc@Hamsah.fritz.box> 1545995024 +0100	commit: Eclipse Automatic Commit
+b26ff628b842fe3c4d15823891af5b1bf572279b 04acc67c50ad8985416e3d7e64c8b773120bee23 katoc <katoc@Hamsah.fritz.box> 1545995029 +0100	commit: Eclipse Automatic Commit
+04acc67c50ad8985416e3d7e64c8b773120bee23 16e23b0b820ff6fd9a2beb57b5a984e05197bdec katoc <katoc@Hamsah.fritz.box> 1545995030 +0100	merge refs/remotes/eclipse_auto/master: Merge made by recursive.
+16e23b0b820ff6fd9a2beb57b5a984e05197bdec 9abf5e25857deb5723b2ddba49a294ae5519d2d2 katoc <katoc@Hamsah.fritz.box> 1545995058 +0100	commit: Eclipse Automatic Commit
+9abf5e25857deb5723b2ddba49a294ae5519d2d2 3ad7714d7d9330b4a0ba9d8504bb96e4ab598b18 katoc <katoc@Hamsah.fritz.box> 1545995066 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+3ad7714d7d9330b4a0ba9d8504bb96e4ab598b18 bd5873c8425d0c5d3bf04148a2017525a4dc15fa katoc <katoc@Hamsah.fritz.box> 1545995347 +0100	commit: Eclipse Automatic Commit
+bd5873c8425d0c5d3bf04148a2017525a4dc15fa 5eacb48a6bafeddfac44a17e935bc76373b58b04 katoc <katoc@Hamsah.fritz.box> 1545995387 +0100	commit: Eclipse Automatic Commit
+5eacb48a6bafeddfac44a17e935bc76373b58b04 f327ae918c1c29d1b8953db2da8d0f47bc15b85e katoc <katoc@Hamsah.fritz.box> 1545995414 +0100	commit: Eclipse Automatic Commit
+f327ae918c1c29d1b8953db2da8d0f47bc15b85e e940e2be92bc65bbbd2daeb121d71665342ef75a katoc <katoc@Hamsah.fritz.box> 1545995799 +0100	commit: Eclipse Automatic Commit
+e940e2be92bc65bbbd2daeb121d71665342ef75a 7fbee62817ffac264ca98e15300bb7bc974a4d3f katoc <katoc@Hamsah.fritz.box> 1545995812 +0100	commit: Eclipse Automatic Commit
+7fbee62817ffac264ca98e15300bb7bc974a4d3f daa055b7022aeee5b5c7b528fc3c96e0da44f6de katoc <katoc@Hamsah.fritz.box> 1545995821 +0100	commit: Eclipse Automatic Commit
+daa055b7022aeee5b5c7b528fc3c96e0da44f6de d0391eeeeea954b78e1734ae389ea966eb4522ab katoc <katoc@Hamsah.fritz.box> 1545995827 +0100	commit: Eclipse Automatic Commit
+d0391eeeeea954b78e1734ae389ea966eb4522ab c94f38cc883beee13259b216fc163499af408269 katoc <katoc@Hamsah.fritz.box> 1545995832 +0100	commit: Eclipse Automatic Commit
+c94f38cc883beee13259b216fc163499af408269 71ce61558be9d179f97036d8950d16291d1342c9 katoc <katoc@Hamsah.fritz.box> 1545995840 +0100	commit: Eclipse Automatic Commit
+71ce61558be9d179f97036d8950d16291d1342c9 34f299723b94e8bc06111edb298047fc967ce043 katoc <katoc@Hamsah.fritz.box> 1545995945 +0100	commit: Eclipse Automatic Commit
+34f299723b94e8bc06111edb298047fc967ce043 a5cd216940b0a69da4a4d43ac685f5841a2bfdac katoc <katoc@Hamsah.fritz.box> 1545995950 +0100	merge refs/remotes/eclipse_auto/master: Merge made by recursive.
+a5cd216940b0a69da4a4d43ac685f5841a2bfdac 395361e04f891bc65b1a6f791f3e37b3d9285ee2 katoc <katoc@Hamsah.fritz.box> 1545995955 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+395361e04f891bc65b1a6f791f3e37b3d9285ee2 ab88c8abe5fb941950441b559285017cfaafa7c8 katoc <katoc@Hamsah.fritz.box> 1545996125 +0100	commit: Eclipse Automatic Commit
+ab88c8abe5fb941950441b559285017cfaafa7c8 6d7e455cfcdf1aea5cf3a1e9a100e60b98813b5f katoc <katoc@Hamsah.fritz.box> 1545996130 +0100	commit: Eclipse Automatic Commit
+6d7e455cfcdf1aea5cf3a1e9a100e60b98813b5f 402aab5a8196ddb901466bc775b742b7477dc005 katoc <katoc@Hamsah.fritz.box> 1545996135 +0100	commit: Eclipse Automatic Commit
+402aab5a8196ddb901466bc775b742b7477dc005 3737cd915b2c863e8640237c3b72df96e184abc2 katoc <katoc@Hamsah.fritz.box> 1545996213 +0100	commit: Eclipse Automatic Commit
+3737cd915b2c863e8640237c3b72df96e184abc2 e06c2e3c15fa44f8efacb229a38c1376e6e0e8ee katoc <katoc@Hamsah.fritz.box> 1545996302 +0100	commit: Eclipse Automatic Commit
+e06c2e3c15fa44f8efacb229a38c1376e6e0e8ee 766b8f5dbd8d89e122c3a6a47e1ba14fdfb858c9 katoc <katoc@Hamsah.fritz.box> 1545996325 +0100	commit: Eclipse Automatic Commit
+766b8f5dbd8d89e122c3a6a47e1ba14fdfb858c9 0e318854b8bb9847b04d8b77f02d9631d6c46d28 katoc <katoc@Hamsah.fritz.box> 1545996345 +0100	commit: Eclipse Automatic Commit
+0e318854b8bb9847b04d8b77f02d9631d6c46d28 e06fd784ce8272da3a774b7a599ce2671d67587a katoc <katoc@Hamsah.fritz.box> 1545996523 +0100	commit: Eclipse Automatic Commit
+e06fd784ce8272da3a774b7a599ce2671d67587a 5f1cc8190870863d8e9410ab7ca2b05737c3f31e katoc <katoc@Hamsah.fritz.box> 1545997032 +0100	commit: Eclipse Automatic Commit
+5f1cc8190870863d8e9410ab7ca2b05737c3f31e 959cb20a13f5fd6ce3e646c5adf67fcf950e235c katoc <katoc@Hamsah.fritz.box> 1545997055 +0100	commit: Eclipse Automatic Commit
+959cb20a13f5fd6ce3e646c5adf67fcf950e235c 3c4716f44bb30db3f12a8ad336c7c8facc267eef katoc <katoc@Hamsah.fritz.box> 1545997094 +0100	commit: Eclipse Automatic Commit
+3c4716f44bb30db3f12a8ad336c7c8facc267eef 6c0fadd81066a7c3118107a3679c43997fd77848 katoc <katoc@Hamsah.fritz.box> 1545997294 +0100	commit: Eclipse Automatic Commit
+6c0fadd81066a7c3118107a3679c43997fd77848 052a7e72230280b0e66cf8d9c3645e1073c0058f katoc <katoc@Hamsah.fritz.box> 1545997297 +0100	commit: Eclipse Automatic Commit
+052a7e72230280b0e66cf8d9c3645e1073c0058f 69d3bd5207caf2a9ec59e727cbd9c5d617ad2396 katoc <katoc@Hamsah.fritz.box> 1545997386 +0100	commit: Eclipse Automatic Commit
+69d3bd5207caf2a9ec59e727cbd9c5d617ad2396 f7f186a9f1aac01e4e86d7a41fd41d758600d8dc katoc <katoc@Hamsah.fritz.box> 1545997400 +0100	commit: Eclipse Automatic Commit
+f7f186a9f1aac01e4e86d7a41fd41d758600d8dc 4387b274743b4cbd43242516caef76dc16b42462 katoc <katoc@Hamsah.fritz.box> 1545997409 +0100	commit: Eclipse Automatic Commit
+4387b274743b4cbd43242516caef76dc16b42462 4414abd59acfedfe316f714fc0473c3df632b556 katoc <katoc@Hamsah.fritz.box> 1545997417 +0100	commit: Eclipse Automatic Commit
+4414abd59acfedfe316f714fc0473c3df632b556 a9301228042922c624dc9b0c4b56e11dcf951b71 katoc <katoc@Hamsah.fritz.box> 1545997417 +0100	merge refs/remotes/eclipse_auto/master: Merge made by recursive.
+a9301228042922c624dc9b0c4b56e11dcf951b71 73f15b2a415082d49e0a00ab68ac5bf0956203ee katoc <katoc@Hamsah.fritz.box> 1545997434 +0100	commit: Eclipse Automatic Commit
+73f15b2a415082d49e0a00ab68ac5bf0956203ee fff6ecf4c009764a7ec5fb90640e5d3db187d471 katoc <katoc@Hamsah.fritz.box> 1545997441 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+fff6ecf4c009764a7ec5fb90640e5d3db187d471 11bdcc6bf87f10754a3380ccb9cdf8a0305992c3 katoc <katoc@Hamsah.fritz.box> 1545997477 +0100	commit: Eclipse Automatic Commit
+11bdcc6bf87f10754a3380ccb9cdf8a0305992c3 92dbb6f2ec0de6db62aaabb89416d9b61c368078 katoc <katoc@Hamsah.fritz.box> 1545997510 +0100	commit: Eclipse Automatic Commit
+92dbb6f2ec0de6db62aaabb89416d9b61c368078 7536eb0df56aee59cbe56bc9183b87126bcc15c5 katoc <katoc@Hamsah.fritz.box> 1545997523 +0100	commit: Eclipse Automatic Commit
+7536eb0df56aee59cbe56bc9183b87126bcc15c5 00aeca4ae9447474ccf9ffcbd8fe17fdef1f4894 katoc <katoc@Hamsah.fritz.box> 1545999663 +0100	commit: Eclipse Automatic Commit
+00aeca4ae9447474ccf9ffcbd8fe17fdef1f4894 9efe058438d41e465099dfdcc82ec65291043f63 katoc <katoc@Hamsah.fritz.box> 1545999749 +0100	commit: Eclipse Automatic Commit
+9efe058438d41e465099dfdcc82ec65291043f63 6dabf6c14f477a7e2a751054895be6ebb04fc630 katoc <katoc@Hamsah.fritz.box> 1545999749 +0100	commit: Eclipse Automatic Commit
+6dabf6c14f477a7e2a751054895be6ebb04fc630 b8b46f729d7d0c5b64b33fb0eb148bb84e79f2a0 katoc <katoc@Hamsah.fritz.box> 1546000320 +0100	commit: Eclipse Automatic Commit
+b8b46f729d7d0c5b64b33fb0eb148bb84e79f2a0 863d55cdec322e09334f67ff3e204b1dda6189d4 katoc <katoc@Hamsah.fritz.box> 1546000321 +0100	commit: Eclipse Automatic Commit
+863d55cdec322e09334f67ff3e204b1dda6189d4 b378ae98af0da43a42f2b71567bfa760ff8ed388 katoc <katoc@Hamsah.fritz.box> 1546000574 +0100	commit: Eclipse Automatic Commit
+b378ae98af0da43a42f2b71567bfa760ff8ed388 cbf3a0a7f83ef45a1bb34d345021abea71a32bd3 katoc <katoc@Hamsah.fritz.box> 1546002638 +0100	commit: Eclipse Automatic Commit
+cbf3a0a7f83ef45a1bb34d345021abea71a32bd3 c156e2c7d1c2817426985d3907e5c826dd1429fe katoc <katoc@Hamsah.fritz.box> 1546002719 +0100	commit: Eclipse Automatic Commit
+c156e2c7d1c2817426985d3907e5c826dd1429fe 33512d821bcda2c1853873809341edace7daccde katoc <katoc@Hamsah.fritz.box> 1546002908 +0100	commit: Eclipse Automatic Commit
+33512d821bcda2c1853873809341edace7daccde 28631df5f7bb4a90c07265f52ee67a01810497ab katoc <katoc@Hamsah.fritz.box> 1546002985 +0100	commit: Eclipse Automatic Commit
+28631df5f7bb4a90c07265f52ee67a01810497ab ff218b48ace1cc18be6e9e08ab23057d323ad72f katoc <katoc@Hamsah.fritz.box> 1546002990 +0100	commit: Eclipse Automatic Commit
+ff218b48ace1cc18be6e9e08ab23057d323ad72f 403e1e0e02afb19d309349b6f68a555c861f0ae9 katoc <katoc@Hamsah.fritz.box> 1546002990 +0100	merge refs/remotes/eclipse_auto/master: Merge made by recursive.
+403e1e0e02afb19d309349b6f68a555c861f0ae9 bb9bf12db3ea81c5940ebc9f5d0f51c7511f3e86 katoc <katoc@Hamsah.fritz.box> 1546003483 +0100	commit: Eclipse Automatic Commit
+bb9bf12db3ea81c5940ebc9f5d0f51c7511f3e86 48e313a766a2ccf8741acd4274e7b87718d40e53 katoc <katoc@Hamsah.fritz.box> 1546003509 +0100	commit: Eclipse Automatic Commit
+48e313a766a2ccf8741acd4274e7b87718d40e53 2a251e938f6837d790a679eda5dfdda3cb5cd69d katoc <katoc@Hamsah.fritz.box> 1546003515 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+2a251e938f6837d790a679eda5dfdda3cb5cd69d 40f842e217cdf5fbca2f59598f839c7b33f6dc2f katoc <katoc@Hamsah.fritz.box> 1546003617 +0100	commit: Eclipse Automatic Commit
+40f842e217cdf5fbca2f59598f839c7b33f6dc2f b5b2d280dec47ff47deaccf479e2c6e29411d704 katoc <katoc@Hamsah.fritz.box> 1546003638 +0100	commit: Eclipse Automatic Commit
+b5b2d280dec47ff47deaccf479e2c6e29411d704 480a0058f1dee813fa2609bb90d1eeb9c84dd48e katoc <katoc@Hamsah.fritz.box> 1546003642 +0100	commit: Eclipse Automatic Commit
+480a0058f1dee813fa2609bb90d1eeb9c84dd48e 3446c86d05ad17d75fc607a714eaed919229d373 katoc <katoc@Hamsah.fritz.box> 1546003657 +0100	commit: Eclipse Automatic Commit
+3446c86d05ad17d75fc607a714eaed919229d373 78df61a798b60c423f4927ed3d006d4c5f65692c katoc <katoc@Hamsah.fritz.box> 1546003680 +0100	commit: Eclipse Automatic Commit
+78df61a798b60c423f4927ed3d006d4c5f65692c d9ad110132d3193341f1af04aedd8645d39d468e katoc <katoc@Hamsah.fritz.box> 1546003688 +0100	commit: Eclipse Automatic Commit
+d9ad110132d3193341f1af04aedd8645d39d468e 45be1f01d6d59360f79ca1262b6f194e4ef024eb katoc <katoc@Hamsah.fritz.box> 1546003696 +0100	commit: Eclipse Automatic Commit
+45be1f01d6d59360f79ca1262b6f194e4ef024eb b9c505db13f5961694bad7e60e7858bf3b9fa57d katoc <katoc@Hamsah.fritz.box> 1546003728 +0100	commit: Eclipse Automatic Commit
+b9c505db13f5961694bad7e60e7858bf3b9fa57d ee3a8458247d1fefa77fb8c7a8f7b7e6240ddad8 katoc <katoc@Hamsah.fritz.box> 1546003793 +0100	commit: Eclipse Automatic Commit
+ee3a8458247d1fefa77fb8c7a8f7b7e6240ddad8 6c480bfe48100aafdb42701280008b2636b0654b katoc <katoc@Hamsah.fritz.box> 1546003801 +0100	commit: Eclipse Automatic Commit
+6c480bfe48100aafdb42701280008b2636b0654b 5d3b925aedfbf49fd1e4ec9eb35954998d518666 katoc <katoc@Hamsah.fritz.box> 1546003807 +0100	commit: Eclipse Automatic Commit
+5d3b925aedfbf49fd1e4ec9eb35954998d518666 4bc522d67e830ef8e7378b1bc839e42cf987e1ce katoc <katoc@Hamsah.fritz.box> 1546003813 +0100	commit: Eclipse Automatic Commit
+4bc522d67e830ef8e7378b1bc839e42cf987e1ce 4af3770dc0fc91882310e23a7d1a341603ab6a45 katoc <katoc@Hamsah.fritz.box> 1546003847 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
+4af3770dc0fc91882310e23a7d1a341603ab6a45 2b01b56e54de002210b61f12af867bb0c002a2c2 katoc <katoc@Hamsah.fritz.box> 1546003992 +0100	commit: Eclipse Automatic Commit
+2b01b56e54de002210b61f12af867bb0c002a2c2 a0c72f9c21c7855a0971ea537f9c41b0aaf6d74c katoc <katoc@Hamsah.fritz.box> 1546004010 +0100	commit: Eclipse Automatic Commit
+a0c72f9c21c7855a0971ea537f9c41b0aaf6d74c 0557e07fade4dcf15103bd841d08d0a180a94323 katoc <katoc@Hamsah.fritz.box> 1546004066 +0100	commit: Eclipse Automatic Commit
+0557e07fade4dcf15103bd841d08d0a180a94323 28eb77ca242f63b4fe96c5811cc96e22f317a6b6 katoc <katoc@Hamsah.fritz.box> 1546004072 +0100	commit: Eclipse Automatic Commit
+28eb77ca242f63b4fe96c5811cc96e22f317a6b6 2b3bacae612b0c4e0cf2932761b998b9ab05645a katoc <katoc@Hamsah.fritz.box> 1546004081 +0100	commit: Eclipse Automatic Commit
+2b3bacae612b0c4e0cf2932761b998b9ab05645a 8cd5b068f07f5739be9edc3ecc86183312a9e505 katoc <katoc@Hamsah.fritz.box> 1546004090 +0100	commit: Eclipse Automatic Commit
+8cd5b068f07f5739be9edc3ecc86183312a9e505 fd095aca5e938e39f254caf277e90c97f10a677c katoc <katoc@Hamsah.fritz.box> 1546004124 +0100	merge refs/remotes/eclipse_auto/master: Fast-forward
