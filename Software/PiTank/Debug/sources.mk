@@ -25,6 +25,7 @@ C_DEPS :=
 SUBDIRS := \
 src/app \
 src/hal/raspberryPi/bsp \
+src/hal/raspberryPi/drivers/gpio \
 src/hal/raspberryPi/drivers/pwm \
 src/hal/raspberryPi \
 src/motor_control \

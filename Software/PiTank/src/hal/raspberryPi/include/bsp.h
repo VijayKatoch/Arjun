@@ -8,8 +8,21 @@
 #ifndef HAL_RASPBERRYPI_BSP_BSP_H_
 #define HAL_RASPBERRYPI_BSP_BSP_H_
 
+/*
+ *  Hardware configuration for Raspberry Pi 3 Model B Ver 1.2
+ *
+ */
 
-/* Hardware PWM configuration for Raspberry Pi 3 Model B Ver 1.2
+#define PWM1_SET_PIN                    18
+#define PWM1_SET_CLOCK                  1920
+#define PWM1_SET_RANGE                  200
+#define PWM1_DUTY_CYCLE_FACTOR          0.2
+
+#define GPIO_MOTOR_FWD_PIN              23
+#define GPIO_MOTOR_REV_PIN              24
+
+
+/* PWM configuration
  *
  *pwmFrequency in Hz = 19.2e6 Hz / pwmClock / pwmRange
  * e.g 50 Hz = 19.2e6 Hz / 1920 / 200
@@ -25,14 +38,20 @@
  *
  */
 
-#define PWM1_SET_PIN                     18
-#define PWM1_SET_CLOCK                   1920
-#define PWM1_SET_RANGE                   200
-#define PWM1_DUTY_CYCLE_FACTOR           0.2
+int     bsp_init_pwm1();
+void    bsp_pwm1_write(int dutyCycle);
 
-int bsp_init_pwm1();
+/*
+ * GPIO configuration
+ */
 
-void bsp_pwm1_write(int dutyCycle);
+int     bsp_init_gpio();
+void    bsp_set_gpio_output_pin(int pin);
+void    bsp_set_gpio_input_pin(int pin);
+void    bsp_gpio_write(int pin, int value);
 
+void    bsp_gpio_mtr_dir_ctl_enable();
+void    bsp_gpio_mtr_turn_fwd();
+void    bsp_gpio_mtr_turn_rev();
 
 #endif /* HAL_RASPBERRYPI_BSP_BSP_H_ */

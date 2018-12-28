@@ -10,13 +10,26 @@
 
 typedef struct
 {
-    int (* pwm_init)(void);
-    void(* pwm_write)(int);
+    int     (* pwm_init)(void);
+    void    (* pwm_write)(int);
 }pwm_api_t;
 
 typedef struct
 {
-    pwm_api_t pwmA;
+    int     (* gpio_init)(void);
+    void    (* gpio_set_output_pin)(int);
+    void    (* gpio_set_input_pin)(int);
+    void    (* gpio_write)(int, int);
+
+    void    (* gpio_enable_motor_direction_control)(void);
+    void    (* gpio_motor_turn_forward)(void);
+    void    (* gpio_motor_turn_reverse)(void);
+}gpio_api_t;
+
+typedef struct
+{
+    pwm_api_t   pwmA;
+    gpio_api_t  gpio;
 }motor_config_t;
 
 /*

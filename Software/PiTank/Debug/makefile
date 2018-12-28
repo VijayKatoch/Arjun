@@ -10,6 +10,7 @@ RM := rm -rf
 -include sources.mk
 -include src/motor_control/subdir.mk
 -include src/hal/raspberryPi/drivers/pwm/subdir.mk
+-include src/hal/raspberryPi/drivers/gpio/subdir.mk
 -include src/hal/raspberryPi/bsp/subdir.mk
 -include src/hal/raspberryPi/subdir.mk
 -include src/app/subdir.mk
