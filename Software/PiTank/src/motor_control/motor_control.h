@@ -62,4 +62,15 @@ extern void hal_init_raspberryPi();
 
 int motor_init();
 
+void motor_control_enable();
+
+void motor_stop();
+
+void motor_move_forward();
+
+void motor_move_reverse();
+
+void motor_speed(int speed);
+
+
 #endif /* APP_MOTOR_CONTROL_H_ */

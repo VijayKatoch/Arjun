@@ -6,9 +6,13 @@
  */
 
 #include "app.h"
+#include "appweb/appweb.h"
 
-int main()
+int main(int argc, char** argv)
 {
     app_init();
+
+    return maRunWebServer("../src/webserver/appweb/appweb.conf");
+
     return 0;
 }

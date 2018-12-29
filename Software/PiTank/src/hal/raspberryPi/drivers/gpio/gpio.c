@@ -11,7 +11,7 @@
 
 int init_gpio()
 {
-    return wiringPiSetupGpio();
+    return wiringPiSetupGpio();     /* FixMe: Initialize WiringPi only Once */
 }
 
 void gpio_set_output_pin(int pin)
