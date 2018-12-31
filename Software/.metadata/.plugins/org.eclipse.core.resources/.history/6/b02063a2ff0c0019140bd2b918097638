@@ -1,0 +1,14 @@
+/*
+ * http.h
+ *
+ *  Created on: Dec 31, 2018
+ *      Author: Vijay Katoch
+ */
+
+#ifndef APP_HTTP_H_
+#define APP_HTTP_H_
+
+typedef enum {forward, reverse, stop, speed} POST_COMMANDS;
+
+
+#endif /* APP_HTTP_H_ */

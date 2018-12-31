@@ -1,0 +1,11 @@
+/*
+ * httpRequest.c
+ *
+ *  Created on: Dec 31, 2018
+ *      Author: Vijay Katoch
+ */
+
+STATUS handlePOSTRequest(POST_DATA *data)
+{
+
+}

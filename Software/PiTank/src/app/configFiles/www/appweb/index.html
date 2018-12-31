@@ -10,7 +10,7 @@
 
 <body>
     <div class="top">
-        <a class="logo" href="https://github.com/VijayKatoch/PiTank">&nbsp;</a>
+        <a class="logo" href="https://github.com/VijayKatoch/PiTank" target="_blank">&nbsp;</a>
     </div>
     <div class="content">
         <div class="contentRight">
@@ -21,13 +21,13 @@
 
             <h1>Quick Start</h1>
             <ol>
-                <li>Read the project documentation
-                    <a href="https://github.com/VijayKatoch/PiTank/tree/master/Docs">documentation</a>.</li>
+                <li>Read the project
+                    <a href="https://github.com/VijayKatoch/PiTank/tree/master/Docs" target="_blank">documentation</a>.</li>
                 <li>Build using  
-                    <a href="https://github.com/VijayKatoch/PiTank/tree/master/Software">
-                        Eclipse</a> Synchronized C/C++ Project on Raspberry Pi remote.</a>
+                    <a href="https://github.com/VijayKatoch/PiTank/tree/master/Software" target="_blank">
+                        Eclipse</a> Synchronized C/C++ Project on Raspberry Pi remote</a>.</li>
                 <li>Bill of Material
-                    <a href="https://github.com/VijayKatoch/PiTank/tree/master/BOM">
+                    <a href="https://github.com/VijayKatoch/PiTank/tree/master/BOM" target="_blank">
                     BOM</a>.</li>
             </ol>
 
@@ -37,14 +37,31 @@
                 <li>ToDo
                 (Version:
                 you can download a binary distribution or a source archive from GitHub:
-            <a href="https://github.com/VijayKatoch/PiTank">Link</a>.</li>
+            <a href="https://github.com/VijayKatoch/PiTank" target="_blank">Link</a>.</li>
 
             <li>Project
-            <a href="https://github.com/VijayKatoch/PiTank/wiki">Wiki</a>.</li>
+            <a href="https://github.com/VijayKatoch/PiTank/wiki" target="_blank">Wiki</a>.</li>
 
             <p>Thanks, Vijay Katoch.</p>
         </div>
     </div>
+	
+	<!--------- Post Methods for Motor Control ---------------->
+	<div class="state">
+		<form id="move-forward" method="post" action="http://192.168.178.40/" target="_blank">
+			<input "text" name="forward"/>
+		</form>
+		<form id="move-reverse" method="post" action="http://192.168.178.40/" target="_blank">
+			<input "text" name="reverse"/>
+		</form>
+		<form id="stop" method="post" action="http://192.168.178.40/" target="_blank">
+			<input "text" name="stop"/>
+		</form>
+		<form id="adjust-speed" method="post" action="http://192.168.178.40/" target="_blank">
+			<input "number" name="speed"/>
+		</form>
+	</div>	
+	<!--------------------------------------------------------->
 
 	<div class="bottom">
 		<p class="footnote">

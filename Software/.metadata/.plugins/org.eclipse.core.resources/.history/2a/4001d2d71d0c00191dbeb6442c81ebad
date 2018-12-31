@@ -1,0 +1,18 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 28, 2018
+ *      Author: Vijay Katoch
+ */
+
+#include "app.h"
+//#include "appweb/appweb.h"
+
+int main(int argc, char** argv)
+{
+    app_init();
+
+    //return maRunWebServer("../src/webserver/appweb/config/appweb.conf");
+
+    return 0;
+}

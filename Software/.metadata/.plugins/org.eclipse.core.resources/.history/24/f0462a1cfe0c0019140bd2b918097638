@@ -1,0 +1,15 @@
+/*
+ * httpUtil_i.h
+ *
+ *  Created on: Dec 31, 2018
+ *      Author: Vijay Katoch
+ */
+
+#ifndef APP_HTTPUTIL_I_H_
+#define APP_HTTPUTIL_I_H_
+
+typedef enum {forward, reverse, stop, speed} POST_COMMANDS;
+
+int getFormData();
+
+#endif /* APP_HTTPUTIL_I_H_ */

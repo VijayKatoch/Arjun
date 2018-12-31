@@ -1,0 +1,23 @@
+/*
+ * httpRequest.c
+ *
+ *  Created on: Dec 31, 2018
+ *      Author: Vijay Katoch
+ */
+
+void handlePOSTRequest(POST_DATA *data)
+{
+    switch(*data)
+    {
+        case forward:
+            break;
+        case reverse:
+            break;
+        case stop:
+            break;
+        case speed;
+            break;
+        default:
+
+    }
+}

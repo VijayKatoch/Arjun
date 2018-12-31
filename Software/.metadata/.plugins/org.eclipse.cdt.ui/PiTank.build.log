@@ -1,20 +1,38 @@
-17:58:50 **** Incremental Build of configuration Debug for project PiTank ****
+21:15:55 **** Incremental Build of configuration Debug for project PiTank ****
 make all 
 make --no-print-directory pre-build
-cp "../src/hal/pi-linux/bsp/bsp.h" "../src/hal/pi-linux/include"; cp "../src/hal/pi-linux/drivers/"*/*.h "../src/hal/pi-linux/include";
+cp "../src/hal/raspberryPi/bsp/bsp.h" "../src/hal/raspberryPi/include"; cp "../src/hal/raspberryPi/drivers/"*/*.h "../src/hal/raspberryPi/include"; cp "../src/motor_control/motor_control.h" "../src/include";
  
 make --no-print-directory main-build
-Building file: ../src/hal/pi-linux/bsp/bsp.c
+Building file: ../src/hal/raspberryPi/bsp/bsp.c
 Invoking: GCC C Compiler
-gcc -I"C:\workspace\raspberry-pi\PiTank\src\include" -I"C:\workspace\raspberry-pi\PiTank\src\hal\pi-linux\include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hal/pi-linux/bsp/bsp.d" -MT"src/hal/pi-linux/bsp/bsp.o" -o "src/hal/pi-linux/bsp/bsp.o" "../src/hal/pi-linux/bsp/bsp.c"
-Finished building: ../src/hal/pi-linux/bsp/bsp.c
+gcc -I../src/include -I../src/hal/raspberryPi/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hal/raspberryPi/bsp/bsp.d" -MT"src/hal/raspberryPi/bsp/bsp.o" -o "src/hal/raspberryPi/bsp/bsp.o" "../src/hal/raspberryPi/bsp/bsp.c"
+Finished building: ../src/hal/raspberryPi/bsp/bsp.c
  
-Building target: PiTank
+Building file: ../src/hal/raspberryPi/motor_control_hw.c
+Invoking: GCC C Compiler
+gcc -I../src/include -I../src/hal/raspberryPi/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hal/raspberryPi/motor_control_hw.d" -MT"src/hal/raspberryPi/motor_control_hw.o" -o "src/hal/raspberryPi/motor_control_hw.o" "../src/hal/raspberryPi/motor_control_hw.c"
+Finished building: ../src/hal/raspberryPi/motor_control_hw.c
+ 
+Building file: ../src/app/app.c
+Invoking: GCC C Compiler
+gcc -I../src/include -I../src/hal/raspberryPi/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/app/app.d" -MT"src/app/app.o" -o "src/app/app.o" "../src/app/app.c"
+../src/app/app.c: In function ‘app_init’:
+../src/app/app.c:16:12: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+     STATUS status = -1;
+            ^~~~~~
+../src/app/app.c: In function ‘handlePOSTRequest’:
+../src/app/app.c:29:5: warning: enumeration value ‘noCmdError’ not handled in switch [-Wswitch]
+     switch(data->cmd)
+     ^~~~~~
+Finished building: ../src/app/app.c
+ 
+Building target: libPiTank.so
 Invoking: GCC C++ Linker
-g++  -o "PiTank"  ./src/hal/pi-linux/drivers/pwm/pwm.o  ./src/hal/pi-linux/bsp/bsp.o  ./src/app/motor_control.o   -lwiringPi
-Finished building target: PiTank
+g++ -shared -o "libPiTank.so"  ./src/motor_control/motor_control.o  ./src/hal/raspberryPi/drivers/pwm/pwm.o  ./src/hal/raspberryPi/drivers/gpio/gpio.o  ./src/hal/raspberryPi/bsp/bsp.o  ./src/hal/raspberryPi/motor_control_hw.o  ./src/app/app.o ./src/app/httpUtil.o ./src/app/requestHandler.o   -lwiringPi
+Finished building target: libPiTank.so
  
 > Shell Completed (exit code = 0)
 
-17:58:54 Build Finished. 0 errors, 0 warnings. (took 4s.276ms)
+21:15:58 Build Finished. 0 errors, 2 warnings. (took 3s.198ms)
 

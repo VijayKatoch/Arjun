@@ -1,0 +1,13 @@
+/*
+ * httpUtil.c
+ *
+ *  Created on: Dec 31, 2018
+ *      Author: Vijay Katoch
+ */
+
+#include "httpUtil_i.h"
+
+STATUS getPostFormData(const char*, POST_DATA *data)
+{
+    STATUS status = ERROR;
+}

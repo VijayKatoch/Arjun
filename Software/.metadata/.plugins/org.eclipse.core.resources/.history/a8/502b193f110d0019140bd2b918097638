@@ -1,0 +1,44 @@
+/*
+ * httpUtil.c
+ *
+ *  Created on: Dec 31, 2018
+ *      Author: Vijay Katoch
+ */
+
+#include <string.h>
+#include<stdio.h>
+
+#include "httpUtil_i.h"
+
+const static struct {
+    POST_COMMAND postCmd;
+    const char *cmdStr;
+} conversion [] = {
+        {forward, "forward"},
+        {reverse, "reverse"},
+        {stop, "stop"},
+        {speed, "speed"}
+};
+
+
+STATUS getPostFormData(const char*, POST_DATA *data)
+{
+    STATUS status = ERROR;
+    char* token = strtok(str, "=");
+
+    while(NULL != token)
+    {
+
+    }
+
+}
+
+POST_COMMAND strToCmdEnum(const char* str)
+{
+    int i;
+    for(i=0; i< sizeof(conversion)/sizeof(conversion[0]); ++i)
+        if(!strcmp(str, conversion[i].cmdStr))
+            return conversion[i].postCmd;
+
+    return (POST_COMMAND)(-1);
+}

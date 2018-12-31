@@ -1,0 +1,72 @@
+/*
+ * httpUtil.c
+ *
+ *  Created on: Dec 31, 2018
+ *      Author: Vijay Katoch
+ */
+
+#include <string.h>
+#include <stdlib.h>
+
+#include "httpUtil_i.h"
+
+const static struct {
+    POST_COMMAND postCmd;
+    const char *cmdStr;
+} cmdConversion [] = {
+        {forward, "forward"},
+        {reverse, "reverse"},
+        {stop, "stop"},
+        {speed, "speed"}
+};
+
+const static struct {
+    COMMAND_BOOL_VAL cmdBoolVal;
+    const char *valStr;
+} cmdValueConversion [] = {
+        {TRUE, "true"},
+        {FALSE, "false"}
+};
+
+STATUS getPostFormData(const char* reqData, POST_DATA *data)
+{
+    STATUS status = ERROR;
+    char* token = strtok(str, "=");
+
+    POST_COMMAND cmd = getPostReqCommand(reqData);
+    if(noCmdError == cmd) return (ERR_FORM_DATA);
+
+    switch(cmd)
+    {
+        case forward:
+            data->cmd = cmd;
+    }
+
+    while(NULL != token)
+    {
+
+
+
+    }
+
+}
+
+POST_COMMAND getPostReqCommand(const char* str)
+{
+    int i;
+    for(i=0; i< sizeof(cmdConversion)/sizeof(cmdConversion[0]); ++i)
+        if(!strcmp(str, cmdConversion[i].cmdStr))
+            return cmdConversion[i].postCmd;
+
+    return noCmdError;
+}
+
+int getPostCmdValue(const char* str)
+{
+    int i;
+    for(i=0; i< sizeof(cmdValueConversion)/sizeof(cmdValueConversion[0]); ++i)
+        if(!strcmp(str, cmdValueConversion[i].valStr))
+            return (int)cmdValueConversion[i].cmdBoolVal;
+
+    return atoi(str);
+}

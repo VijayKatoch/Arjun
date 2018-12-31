@@ -1,0 +1,15 @@
+/*
+ * httpRequest_i.h
+ *
+ *  Created on: Dec 31, 2018
+ *      Author: Vijay Katoch
+ */
+
+#ifndef APP_HTTPREQUEST_I_H_
+#define APP_HTTPREQUEST_I_H_
+
+#include "appErrorCodes_i.h"
+
+STATUS handlePOSTRequest(POST_DATA *data);
+
+#endif /* APP_HTTPREQUEST_I_H_ */

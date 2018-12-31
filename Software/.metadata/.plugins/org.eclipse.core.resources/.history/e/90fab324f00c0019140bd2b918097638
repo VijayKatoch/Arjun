@@ -1,0 +1,16 @@
+/*
+ * http.h
+ *
+ *  Created on: Dec 31, 2018
+ *      Author: katoc
+ */
+
+#ifndef APP_HTTPREQUEST_H_
+#define APP_HTTPREQUEST_H_
+
+#define HTTP_STR_METHOD_GET 			"GET"
+#define HTTP_STR_METHOD_POST 			"POST"
+#define HTTP_STR_METHOD_PUT				"PUT"
+
+
+#endif /* APP_HTTPREQUEST_H_ */
