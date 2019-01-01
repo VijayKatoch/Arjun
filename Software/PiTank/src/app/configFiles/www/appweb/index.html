@@ -49,15 +49,44 @@
 	
 	<!--------- Post Methods for Motor Control ---------------->
 	<div class="state">
+		<!--------- Forward, Left Fwd, Left Rev ---------------->
 		<form id="move-forward" method="post" action="http://192.168.178.40/" target="blank_frame">
-			<button class="bt_fwd" type="submit" name="forward" value="true"></button>
+			<button class="bt_left_fwd" type="submit" name="leftFwd" value="true"></button>
+			<button class="bt_fwd" type="submit" name="forward" value="true"></button>	
+			<button class="bt_right_fwd" type="submit" name="rightFwd" value="true"></button>
 		</form>
+		
 		<form id="stop" method="post" action="http://192.168.178.40/" target="blank_frame">
 			<button class="bt_stop" type="submit" name="stop" value="true"></button>
 		</form>
+		
 		<form id="move-reverse" method="post" action="http://192.168.178.40/" target="blank_frame">
+			<button class="bt_left_rev" type="submit" name="leftRev" value="true"></button>
 			<button class="bt_rev" type="submit" name="reverse" value="true"></button>
-		</form>		
+			<button class="bt_right_rev" type="submit" name="rightRev" value="true"></button>
+		</form>	
+		<!--
+		<form id="move-left-fwd" method="post" action="http://192.168.178.40/" target="blank_frame">
+			<button class="bt_left_fwd" type="submit" name="leftFwd" value="true"></button>
+		</form>
+		-->
+		<!--<form id="move-left-rev" method="post" action="http://192.168.178.40/" target="blank_frame">
+			<button class="bt_left_rev" type="submit" name="leftRev" value="true"></button>
+		</form>
+		-->
+		
+		
+		
+		<!--------- Reverse, Right Rev, Right Fwd ---------------->
+		<!--
+		<form id="move-right-rev" method="post" action="http://192.168.178.40/" target="blank_frame">
+			<button class="bt_right_rev" type="submit" name="rightRev" value="true"></button>
+		</form>
+		-->
+		<!--<form id="move-right-fwd" method="post" action="http://192.168.178.40/" target="blank_frame">
+			<button class="bt_right_fwd" type="submit" name="rightFwd" value="true"></button>
+		</form>-->		
+		
 		<form id="adjust-speed" method="post" action="http://192.168.178.40/" target="blank_frame">
 			<b>Speed:</b> <input id="slider" type="range" name="speed" value="10" oninput="box.value=slider.value">
 			submit:<input id="box" type="submit" value="10" oninput="slider.value=box.value"/>

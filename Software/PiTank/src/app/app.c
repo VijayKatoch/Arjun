@@ -18,8 +18,12 @@ void app_init()
     hal_init_raspberryPi();
     status = motor_init();
 
-    /*Enable motor direction control*/
-    motor_control_enable();
+    /*Setup motors*/
+    motor1_setup();
+    motor1_control_enable();
+
+    motor2_setup();
+    motor2_control_enable();
 }
 
 void handlePOSTRequest(POST_DATA *data)
@@ -29,16 +33,36 @@ void handlePOSTRequest(POST_DATA *data)
     switch(data->cmd)
     {
         case forward:
-            motor_move_forward();
+            motor1_move_forward();
+            motor2_move_forward();
             break;
         case reverse:
-            motor_move_reverse();
+            motor1_move_reverse();
+            motor2_move_reverse();
+            break;
+        case leftFwd:
+            motor1_move_forward();
+            motor2_stop();
+            break;
+        case rightFwd:
+            motor2_move_forward();
+            motor1_stop();
+            break;
+        case leftRev:
+            motor1_move_reverse();
+            motor2_stop();
+            break;
+        case rightRev:
+            motor2_move_reverse();
+            motor1_stop();
             break;
         case stop:
-            motor_stop();
+            motor1_stop();
+            motor2_stop();
             break;
         case speed:
-            motor_speed(data->value);
+            motor1_speed(data->value);
+            motor2_speed(data->value);
             break;
     }
 }

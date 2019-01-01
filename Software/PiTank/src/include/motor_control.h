@@ -11,7 +11,12 @@
 typedef struct
 {
     int     (* pwm_init)(void);
-    void    (* pwm_write)(int);
+
+    void    (* pwm1_setup)(void);
+    void    (* pwm1_write)(int);
+
+    void    (* pwm2_setup)(void);
+    void    (* pwm2_write)(int);
 }pwm_api_t;
 
 typedef struct
@@ -21,9 +26,13 @@ typedef struct
     void    (* gpio_set_input_pin)(int);
     void    (* gpio_write)(int, int);
 
-    void    (* gpio_enable_motor_direction_control)(void);
-    void    (* gpio_motor_turn_forward)(void);
-    void    (* gpio_motor_turn_reverse)(void);
+    void    (* gpio_enable_motor1_direction_control)(void);
+    void    (* gpio_motor1_turn_forward)(void);
+    void    (* gpio_motor1_turn_reverse)(void);
+
+    void    (* gpio_enable_motor2_direction_control)(void);
+    void    (* gpio_motor2_turn_forward)(void);
+    void    (* gpio_motor2_turn_reverse)(void);
 }gpio_api_t;
 
 typedef struct
@@ -62,15 +71,18 @@ extern void hal_init_raspberryPi();
 
 int motor_init();
 
-void motor_control_enable();
+void motor1_setup();
+void motor1_control_enable();
+void motor1_stop();
+void motor1_move_forward();
+void motor1_move_reverse();
+void motor1_speed(int speed);
 
-void motor_stop();
-
-void motor_move_forward();
-
-void motor_move_reverse();
-
-void motor_speed(int speed);
-
+void motor2_setup();
+void motor2_control_enable();
+void motor2_stop();
+void motor2_move_forward();
+void motor2_move_reverse();
+void motor2_speed(int speed);
 
 #endif /* APP_MOTOR_CONTROL_H_ */

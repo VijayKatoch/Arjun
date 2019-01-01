@@ -16,6 +16,10 @@ const static struct {
 } cmdConversion [] = {
         {forward, "forward"},
         {reverse, "reverse"},
+        {leftFwd, "leftFwd"},
+        {rightFwd, "rightFwd"},
+        {leftRev, "leftRev"},
+        {rightRev, "rightRev"},
         {stop, "stop"},
         {speed, "speed"}
 };

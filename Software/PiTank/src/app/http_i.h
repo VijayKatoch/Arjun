@@ -8,7 +8,7 @@
 #ifndef APP_HTTP_H_
 #define APP_HTTP_H_
 
-typedef enum {noCmdError = -1, forward, reverse, stop, speed} POST_COMMAND;
+typedef enum {noCmdError = -1, forward, reverse, leftFwd, rightFwd, leftRev, rightRev, stop, speed} POST_COMMAND;
 
 typedef enum {noValError = -1, TRUE,FALSE}COMMAND_BOOL_VAL;
 

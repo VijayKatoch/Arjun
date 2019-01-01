@@ -18,8 +18,16 @@
 #define PWM1_SET_RANGE                  200
 #define PWM1_DUTY_CYCLE_FACTOR          0.2
 
-#define GPIO_MOTOR_FWD_PIN              23
-#define GPIO_MOTOR_REV_PIN              24
+#define PWM2_SET_PIN                    17
+#define PWM2_SET_CLOCK                  1920
+#define PWM2_SET_RANGE                  200
+#define PWM2_DUTY_CYCLE_FACTOR          0.2
+
+#define GPIO_MOTOR1_FWD_PIN             23
+#define GPIO_MOTOR1_REV_PIN             24
+
+#define GPIO_MOTOR2_FWD_PIN             10
+#define GPIO_MOTOR2_REV_PIN             9
 
 
 /* PWM configuration
@@ -38,8 +46,13 @@
  *
  */
 
-int     bsp_init_pwm1();
+int     bsp_init_pwm();
+
+void    bsp_setup_pwm1();
 void    bsp_pwm1_write(int dutyCycle);
+
+void    bsp_setup_pwm2();
+void    bsp_pwm2_write(int dutyCycle);
 
 /*
  * GPIO configuration
@@ -50,8 +63,12 @@ void    bsp_set_gpio_output_pin(int pin);
 void    bsp_set_gpio_input_pin(int pin);
 void    bsp_gpio_write(int pin, int value);
 
-void    bsp_gpio_mtr_dir_ctl_enable();
-void    bsp_gpio_mtr_turn_fwd();
-void    bsp_gpio_mtr_turn_rev();
+void    bsp_gpio_mtr1_dir_ctl_enable();
+void    bsp_gpio_mtr1_turn_fwd();
+void    bsp_gpio_mtr1_turn_rev();
+
+void    bsp_gpio_mtr2_dir_ctl_enable();
+void    bsp_gpio_mtr2_turn_fwd();
+void    bsp_gpio_mtr2_turn_rev();
 
 #endif /* HAL_RASPBERRYPI_BSP_BSP_H_ */

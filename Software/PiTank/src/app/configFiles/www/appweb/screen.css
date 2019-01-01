@@ -59,21 +59,51 @@ a.logo {
 	z-index: 1;
 }
 
+button.bt_left_fwd{
+		background-image: url("images/arrow_left_fwd.jpg");
+		height: 65px;
+		width: 65px;
+		/*margin-left: 10px;		*/
+}
 button.bt_fwd{
 		background-image: url("images/arrow_up.jpg");
-		height: 60px;
+		height: 65px;
 		width: 50px;
 }
+button.bt_right_fwd{
+		background-image: url("images/arrow_right_fwd.jpg");
+		height: 65px;
+		width: 65px;
+}
+
 button.bt_stop{
 		background-image: url("images/stop.jpg");
 		height: 55px;
 		width: 55px;
+		margin-left: 65px;
+}
+
+button.bt_left_rev{
+		background-image: url("images/arrow_left_rev.jpg");
+		height: 65px;
+		width: 65px;
+		/*margin-left: 1px;*/
 }
 button.bt_rev{
 		background-image: url("images/arrow_down.jpg");
 		height: 65px;
 		width: 50px;
 }
+button.bt_right_rev{
+		background-image: url("images/arrow_right_rev.jpg");
+		height: 65px;
+		width: 65px;
+}
+
+
+
+
+
 
 /*
  * 	Search and version
