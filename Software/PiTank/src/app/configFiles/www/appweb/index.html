@@ -48,19 +48,22 @@
 	
 	<!--------- Post Methods for Motor Control ---------------->
 	<div class="state">
-		<form id="move-forward" method="post" action="http://192.168.178.40/" target="_blank">
-			<input "text" name="forward"/>
+		<form id="move-forward" method="post" action="http://192.168.178.40/" target="blank_frame">
+			<button class="bt_fwd" type="submit" name="forward" value="true"></button>
 		</form>
-		<form id="move-reverse" method="post" action="http://192.168.178.40/" target="_blank">
-			<input "text" name="reverse"/>
+		<form id="stop" method="post" action="http://192.168.178.40/" target="blank_frame">
+			<button class="bt_stop" type="submit" name="stop" value="true"></button>
 		</form>
-		<form id="stop" method="post" action="http://192.168.178.40/" target="_blank">
-			<input "text" name="stop"/>
-		</form>
-		<form id="adjust-speed" method="post" action="http://192.168.178.40/" target="_blank">
-			<input "number" name="speed"/>
+		<form id="move-reverse" method="post" action="http://192.168.178.40/" target="blank_frame">
+			<button class="bt_rev" type="submit" name="reverse" value="true"></button>
+		</form>		
+		<form id="adjust-speed" method="post" action="http://192.168.178.40/" target="blank_frame">
+			speed: <input id="slider" type="range" name="speed" value="10" oninput="box.value=slider.value">
+			submit:<input id="box" type="submit" value="10" oninput="slider.value=box.value"/>
 		</form>
 	</div>	
+	
+	<iframe id="blank_frame" name="blank_frame" style="display:none"></iframe>
 	<!--------------------------------------------------------->
 
 	<div class="bottom">

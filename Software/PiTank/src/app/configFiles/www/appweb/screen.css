@@ -45,6 +45,38 @@ a.logo {
 }
 
 /*
+ * 	PiTank section
+ */
+ 
+ div.state {
+	border-style: ridge;
+	position: fixed;
+	padding: 10px 0 0 20px;
+	bottom: 150px;
+	right: 330px;
+	height: 250px;
+	width: 200px;
+	text-decoration: none;
+	z-index: 1;
+}
+
+button.bt_fwd{
+		background-image: url("images/arrow_up.jpg");
+		height: 60px;
+		width: 50px;
+}
+button.bt_stop{
+		background-image: url("images/stop.jpg");
+		height: 55px;
+		width: 55px;
+}
+button.bt_rev{
+		background-image: url("images/arrow_down.jpg");
+		height: 65px;
+		width: 50px;
+}
+
+/*
  * 	Search and version
  */
 div.topRight {
