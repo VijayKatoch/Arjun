@@ -6,6 +6,7 @@
     <!--[if IE]>
     <link href="iehacks.css" rel="stylesheet" type="text/css" />
     </![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
 </head>
 
 <body>
@@ -58,7 +59,7 @@
 			<button class="bt_rev" type="submit" name="reverse" value="true"></button>
 		</form>		
 		<form id="adjust-speed" method="post" action="http://192.168.178.40/" target="blank_frame">
-			speed: <input id="slider" type="range" name="speed" value="10" oninput="box.value=slider.value">
+			<b>Speed:</b> <input id="slider" type="range" name="speed" value="10" oninput="box.value=slider.value">
 			submit:<input id="box" type="submit" value="10" oninput="slider.value=box.value"/>
 		</form>
 	</div>	

@@ -50,13 +50,12 @@ a.logo {
  
  div.state {
 	border-style: ridge;
-	position: fixed;
-	padding: 10px 0 0 20px;
-	bottom: 150px;
-	right: 330px;
+	position: relative;
+	left: 715px;
 	height: 250px;
 	width: 200px;
-	text-decoration: none;
+	bottom:280px;
+	padding: 10px 0 0 20px;
 	z-index: 1;
 }
 
