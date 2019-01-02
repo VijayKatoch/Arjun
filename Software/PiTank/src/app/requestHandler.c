@@ -56,7 +56,7 @@ static void incomingRequest(HttpQueue *q, HttpPacket *packet)
         {
             if (packet->content)
             {
-                //printf("POST Data in packet is %s\n", mprGetBufStart(packet->content));
+                /*printf("POST Data in packet is %s\n", mprGetBufStart(packet->content));*/
                 POST_DATA pData;
                 getPostFormData(mprGetBufStart(packet->content), &pData);
                 handlePOSTRequest(&pData);
@@ -66,7 +66,7 @@ static void incomingRequest(HttpQueue *q, HttpPacket *packet)
         {
             if (packet->content)
             {
-                printf("PUT Data in packet is %s\n", mprGetBufStart(packet->content));
+                /*printf("PUT Data in packet is %s\n", mprGetBufStart(packet->content));*/
             }
 
         }

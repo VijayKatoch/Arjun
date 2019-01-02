@@ -17,6 +17,8 @@ void app_init()
 
     hal_init_raspberryPi();
     status = motor_init();
+    if(OK != status)
+        printf("Motor init failed status %d\n", status);
 
     /*Setup motors*/
     motor1_setup();
@@ -28,7 +30,7 @@ void app_init()
 
 void handlePOSTRequest(POST_DATA *data)
 {
-    printf("Post Req %d %d\n", data->cmd, data->value);
+    /*printf("Post Req %d %d\n", data->cmd, data->value);*/
 
     switch(data->cmd)
     {

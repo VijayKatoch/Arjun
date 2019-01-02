@@ -9,9 +9,11 @@
 
 #include <wiringPi.h>
 
+#include "gpio.h"
+
 int init_gpio()
 {
-    return wiringPiSetupGpio();     /* FixMe: Initialize WiringPi only Once */
+    return wiringPiSetup();     /* FixMe: Initialize WiringPi only Once */
 }
 
 void gpio_set_output_pin(int pin)
@@ -26,5 +28,5 @@ void gpio_set_input_pin(int pin)
 
 void gpio_write(int pin, int value)
 {
-    return pwmWrite (pin, value);
+    return digitalWrite (pin, value);
 }

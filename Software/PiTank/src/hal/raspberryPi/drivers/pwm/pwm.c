@@ -23,7 +23,7 @@
 
 int init_pwm()
 {
-    return wiringPiSetupGpio();
+    return wiringPiSetup();
 }
 
 void pwm_set_output_pin(int pin)
