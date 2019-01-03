@@ -48,6 +48,7 @@ int motor_init()
 void motor1_setup()
 {
     motor_var.pwmA.pwm1_setup();
+    motor_var.pwmA.pwm1_mode_setup();
 }
 
 void motor1_control_enable()
@@ -57,7 +58,7 @@ void motor1_control_enable()
 
 void motor1_stop()
 {
-    motor_var.pwmA.pwm1_write(0);
+    motor_var.gpio.gpio_motor1_stop();
 }
 
 void motor1_move_forward()
@@ -82,6 +83,7 @@ void motor1_speed(int speed)
 void motor2_setup()
 {
     motor_var.pwmA.pwm2_setup();
+    motor_var.pwmA.pwm2_mode_setup();
 }
 
 void motor2_control_enable()
@@ -91,7 +93,7 @@ void motor2_control_enable()
 
 void motor2_stop()
 {
-    motor_var.pwmA.pwm2_write(0);
+    motor_var.gpio.gpio_motor2_stop();
 }
 
 void motor2_move_forward()

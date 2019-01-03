@@ -52,7 +52,7 @@ a.logo {
 	border-style: ridge;
 	position: relative;
 	left: 715px;
-	height: 250px;
+	height: 260px;
 	width: 200px;
 	bottom:280px;
 	padding: 10px 0 0 20px;
@@ -87,21 +87,20 @@ button.bt_left_rev{
 		background-image: url("images/arrow_left_rev.jpg");
 		height: 65px;
 		width: 65px;
-		/*margin-left: 1px;*/
+		margin-bottom: 20px;
 }
 button.bt_rev{
 		background-image: url("images/arrow_down.jpg");
 		height: 65px;
 		width: 50px;
+		margin-bottom: 20px;
 }
 button.bt_right_rev{
 		background-image: url("images/arrow_right_rev.jpg");
 		height: 65px;
 		width: 65px;
+		margin-bottom: 20px;
 }
-
-
-
 
 
 

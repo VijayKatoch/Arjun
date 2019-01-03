@@ -13,9 +13,11 @@ typedef struct
     int     (* pwm_init)(void);
 
     void    (* pwm1_setup)(void);
+    void    (* pwm1_mode_setup)(void);
     void    (* pwm1_write)(int);
 
     void    (* pwm2_setup)(void);
+    void    (* pwm2_mode_setup)(void);
     void    (* pwm2_write)(int);
 }pwm_api_t;
 
@@ -29,10 +31,12 @@ typedef struct
     void    (* gpio_enable_motor1_direction_control)(void);
     void    (* gpio_motor1_turn_forward)(void);
     void    (* gpio_motor1_turn_reverse)(void);
+    void    (* gpio_motor1_stop)(void);
 
     void    (* gpio_enable_motor2_direction_control)(void);
     void    (* gpio_motor2_turn_forward)(void);
     void    (* gpio_motor2_turn_reverse)(void);
+    void    (* gpio_motor2_stop)(void);
 }gpio_api_t;
 
 typedef struct

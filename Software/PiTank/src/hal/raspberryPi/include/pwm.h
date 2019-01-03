@@ -10,6 +10,10 @@
 
 int init_pwm();
 
+void pwm_set_mode_ms();
+
+void pwm_set_mode_balanced();
+
 void pwm_set_output_pin(int pin);
 
 void pwm_set_tone_output_pin(int pin);

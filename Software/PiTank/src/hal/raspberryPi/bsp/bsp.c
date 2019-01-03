@@ -7,6 +7,7 @@
 
 #include <pwm.h>
 #include <gpio.h>
+
 #include "bsp.h"
 
 /*
@@ -23,6 +24,16 @@ int bsp_init_pwm()
 
     status = init_pwm();
     return status;
+}
+
+void bsp_set_pwm_mode_ms()
+{
+    pwm_set_mode_ms();
+}
+
+void bsp_set_pwm_mode_balanced()
+{
+    pwm_set_mode_balanced();
 }
 
 void bsp_setup_pwm1()
@@ -97,6 +108,12 @@ void bsp_gpio_mtr1_turn_rev()
     gpio_write(GPIO_MOTOR1_REV_PIN, 1);
 }
 
+void    bsp_gpio_mtr1_stop()
+{
+    gpio_write(GPIO_MOTOR1_FWD_PIN, 0);
+    gpio_write(GPIO_MOTOR1_REV_PIN, 0);
+}
+
 void bsp_gpio_mtr2_dir_ctl_enable()
 {
     gpio_set_output_pin(GPIO_MOTOR2_FWD_PIN);
@@ -112,6 +129,12 @@ void bsp_gpio_mtr2_turn_rev()
 {
     gpio_write(GPIO_MOTOR2_FWD_PIN, 0);
     gpio_write(GPIO_MOTOR2_REV_PIN, 1);
+}
+
+void    bsp_gpio_mtr2_stop()
+{
+    gpio_write(GPIO_MOTOR2_FWD_PIN, 0);
+    gpio_write(GPIO_MOTOR2_REV_PIN, 0);
 }
 
 

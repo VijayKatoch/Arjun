@@ -21,9 +21,20 @@
 
 #include "pwm.h"
 
+
 int init_pwm()
 {
     return wiringPiSetup();
+}
+
+void pwm_set_mode_ms()
+{
+    return pwmSetMode(PWM_MODE_MS);
+}
+
+void pwm_set_mode_balanced()
+{
+    return pwmSetMode(PWM_MODE_BAL);
 }
 
 void pwm_set_output_pin(int pin)
