@@ -23,11 +23,11 @@
 #define PWM2_SET_RANGE                  200
 #define PWM2_DUTY_CYCLE_FACTOR          2
 
-#define GPIO_MOTOR1_FWD_PIN             4           /*BCM 23*/
-#define GPIO_MOTOR1_REV_PIN             5           /*BCM 24*/
+#define GPIO_MOTOR1_FWD_PIN             5           /*BCM 23*/
+#define GPIO_MOTOR1_REV_PIN             4           /*BCM 24*/
 
-#define GPIO_MOTOR2_FWD_PIN             12          /*BCM 10*/
-#define GPIO_MOTOR2_REV_PIN             13          /*BCM 9*/
+#define GPIO_MOTOR2_FWD_PIN             13          /*BCM 10*/
+#define GPIO_MOTOR2_REV_PIN             12          /*BCM 9*/
 
 
 /* PWM configuration
