@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/hal/raspberryPi/motor_control_hw.c 
+../src/hal/raspberryPi/raspi_hal.c 
 
 OBJS += \
-./src/hal/raspberryPi/motor_control_hw.o 
+./src/hal/raspberryPi/raspi_hal.o 
 
 C_DEPS += \
-./src/hal/raspberryPi/motor_control_hw.d 
+./src/hal/raspberryPi/raspi_hal.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

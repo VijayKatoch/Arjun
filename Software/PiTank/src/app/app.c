@@ -5,8 +5,9 @@
  *      Author: Vijay Katoch
  */
 
-#include <motor_control.h>
 #include<stdio.h>
+#include <hw.h>
+#include <motor_control.h>
 
 #include "app_i.h"
 #include "appErrorCodes_i.h"
@@ -16,9 +17,9 @@ void app_init()
     STATUS status = -1;
 
     hal_init_raspberryPi();
-    status = motor_init();
+    status = hardware_init();
     if(OK != status)
-        printf("Motor init failed status %d\n", status);
+        printf("Hardware init failed status %d\n", status);
 
     /*Setup motors*/
     motor1_setup();

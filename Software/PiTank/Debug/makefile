@@ -8,7 +8,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include src/motor_control/subdir.mk
+-include src/stack/subdir.mk
 -include src/hal/raspberryPi/drivers/pwm/subdir.mk
 -include src/hal/raspberryPi/drivers/gpio/subdir.mk
 -include src/hal/raspberryPi/bsp/subdir.mk
@@ -64,7 +64,7 @@ clean:
 	-@echo ' '
 
 pre-build:
-	-cp "../src/hal/raspberryPi/bsp/bsp.h" "../src/hal/raspberryPi/include"; cp "../src/hal/raspberryPi/drivers/"*/*.h "../src/hal/raspberryPi/include"; cp "../src/motor_control/motor_control.h" "../src/include";
+	-cp "../src/hal/raspberryPi/bsp/bsp.h" "../src/hal/raspberryPi/include"; cp "../src/hal/raspberryPi/drivers/"*/*.h "../src/hal/raspberryPi/include"; cp "../src/stack/hw.h" "../src/include"; cp "../src/stack/motor_control.h" "../src/include";
 	-@echo ' '
 
 .PHONY: all clean dependents main-build pre-build
