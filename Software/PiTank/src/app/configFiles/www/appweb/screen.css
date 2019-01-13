@@ -48,7 +48,10 @@ a.logo {
  * 	PiTank section
  */
  
- div.state {
+ /*
+ * 	PiTank: Motor control
+ */
+ div.motion {
 	border-style: ridge;
 	position: relative;
 	left: 715px;
@@ -102,7 +105,35 @@ button.bt_right_rev{
 		margin-bottom: 20px;
 }
 
+ /*
+ * 	PiTank: Turret control
+ */
+ div.attack {
+	border-style: ridge;
+	position: relative;
+	left: 715px;
+	height: 100px;
+	width: 200px;
+	bottom:700px;
+	padding: 10px 0 0 20px;
+	z-index: 1;
+}
 
+button.bt_turn_turret_clk{
+		background-image: url("images/clk.jpg");
+		height: 85px;
+		width: 55px;
+}
+button.bt_fire{
+		background-image: url("images/fire.jpg");
+		height: 75px;
+		width: 72px;
+}
+button.bt_turn_turret_anti_clk{
+		background-image: url("images/anti_clk.jpg");
+		height: 85px;
+		width: 55px;
+}
 
 /*
  * 	Search and version

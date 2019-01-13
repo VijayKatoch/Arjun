@@ -8,7 +8,20 @@
 #ifndef APP_HTTP_H_
 #define APP_HTTP_H_
 
-typedef enum {noCmdError = -1, forward, reverse, leftFwd, rightFwd, leftRev, rightRev, stop, speed} POST_COMMAND;
+typedef enum {
+                noCmdError = -1,
+                turnTurretClk,
+                fire,
+                turnTurretAntiClk,
+                forward,
+                reverse,
+                leftFwd,
+                rightFwd,
+                leftRev,
+                rightRev,
+                stop,
+                speed
+} POST_COMMAND;
 
 typedef enum {noValError = -1, TRUE,FALSE}COMMAND_BOOL_VAL;
 
@@ -16,7 +29,7 @@ typedef enum {noValError = -1, TRUE,FALSE}COMMAND_BOOL_VAL;
 
 typedef struct
 {
-    POST_COMMAND   cmd;
+    POST_COMMAND    cmd;
     int             value;
 }POST_DATA;
 

@@ -29,6 +29,10 @@
 #define GPIO_MOTOR2_FWD_PIN             13          /*BCM 10*/
 #define GPIO_MOTOR2_REV_PIN             12          /*BCM 9*/
 
+#define GPIO_TURRET_PIN_A               21          /*BCM 5*/
+#define GPIO_TURRET_PIN_B               22          /*BCM 6*/
+
+
 
 /* PWM configuration
  *
@@ -87,6 +91,10 @@ void    bsp_set_gpio_output_pin(int pin);
 void    bsp_set_gpio_input_pin(int pin);
 void    bsp_gpio_write(int pin, int value);
 
+/*
+ * GPIO : Motor control
+ */
+
 void    bsp_gpio_mtr1_dir_ctl_enable();
 void    bsp_gpio_mtr1_turn_fwd();
 void    bsp_gpio_mtr1_turn_rev();
@@ -96,5 +104,13 @@ void    bsp_gpio_mtr2_dir_ctl_enable();
 void    bsp_gpio_mtr2_turn_fwd();
 void    bsp_gpio_mtr2_turn_rev();
 void    bsp_gpio_mtr2_stop();
+
+/*
+ * GPIO : Turret control
+ */
+
+void    bsp_gpio_turret_dir_ctl_enable();
+void    bsp_gpio_turret_mv_clockwise();
+void    bsp_gpio_turret_mv_anticlockwise();
 
 #endif /* HAL_RASPBERRYPI_BSP_BSP_H_ */

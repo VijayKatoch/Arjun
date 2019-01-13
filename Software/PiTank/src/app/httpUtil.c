@@ -14,6 +14,9 @@ const static struct {
     POST_COMMAND postCmd;
     const char *cmdStr;
 } cmdConversion [] = {
+        {turnTurretClk, "turnTurretClk"},
+        {fire, "fire"},
+        {turnTurretAntiClk, "turnTurretAntiClk"},
         {forward, "forward"},
         {reverse, "reverse"},
         {leftFwd, "leftFwd"},

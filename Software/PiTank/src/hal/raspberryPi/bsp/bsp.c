@@ -91,6 +91,10 @@ void bsp_gpio_write(int pin, int value)
     gpio_write(pin, value);
 }
 
+/*
+ * GPIO : Motor control
+ */
+
 void bsp_gpio_mtr1_dir_ctl_enable()
 {
     gpio_set_output_pin(GPIO_MOTOR1_FWD_PIN);
@@ -108,7 +112,7 @@ void bsp_gpio_mtr1_turn_rev()
     gpio_write(GPIO_MOTOR1_REV_PIN, 1);
 }
 
-void    bsp_gpio_mtr1_stop()
+void bsp_gpio_mtr1_stop()
 {
     gpio_write(GPIO_MOTOR1_FWD_PIN, 0);
     gpio_write(GPIO_MOTOR1_REV_PIN, 0);
@@ -131,10 +135,32 @@ void bsp_gpio_mtr2_turn_rev()
     gpio_write(GPIO_MOTOR2_REV_PIN, 1);
 }
 
-void    bsp_gpio_mtr2_stop()
+void bsp_gpio_mtr2_stop()
 {
     gpio_write(GPIO_MOTOR2_FWD_PIN, 0);
     gpio_write(GPIO_MOTOR2_REV_PIN, 0);
+}
+
+/*
+ * GPIO : Turret control
+ */
+
+void bsp_gpio_turret_dir_ctl_enable()
+{
+    gpio_set_output_pin(GPIO_TURRET_PIN_A);
+    gpio_set_output_pin(GPIO_TURRET_PIN_B);
+}
+
+void bsp_gpio_turret_mv_clockwise()
+{
+    gpio_write(GPIO_TURRET_PIN_A, 1);
+    gpio_write(GPIO_TURRET_PIN_B, 0);
+}
+
+void bsp_gpio_turret_mv_anticlockwise()
+{
+    gpio_write(GPIO_TURRET_PIN_A, 0);
+    gpio_write(GPIO_TURRET_PIN_B, 1);
 }
 
 

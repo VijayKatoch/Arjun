@@ -64,7 +64,7 @@ clean:
 	-@echo ' '
 
 pre-build:
-	-cp "../src/hal/raspberryPi/bsp/bsp.h" "../src/hal/raspberryPi/include"; cp "../src/hal/raspberryPi/drivers/"*/*.h "../src/hal/raspberryPi/include"; cp "../src/stack/hw.h" "../src/include"; cp "../src/stack/motor_control.h" "../src/include";
+	-cp "../src/hal/raspberryPi/bsp/bsp.h" "../src/hal/raspberryPi/include"; cp "../src/hal/raspberryPi/drivers/"*/*.h "../src/hal/raspberryPi/include"; cp "../src/stack/"*.h "../src/include";
 	-@echo ' '
 
 .PHONY: all clean dependents main-build pre-build

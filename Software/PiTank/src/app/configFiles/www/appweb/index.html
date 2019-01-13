@@ -48,8 +48,8 @@
     </div>
 	
 	<!--------- Post Methods for Motor Control ---------------->
-	<div class="state">
-		<!--------- Forward, Left Fwd, Left Rev ---------------->
+	<div class="motion">
+		<!--------- Forward, Reverse, Left Fwd, Left Rev and speed ---------------->
 		<form id="move-forward" method="post" action="http://192.168.178.40/" target="blank_frame">
 			<button class="bt_left_fwd" type="submit" name="leftFwd" value="true"></button>
 			<button class="bt_fwd" type="submit" name="forward" value="true"></button>	
@@ -69,8 +69,18 @@
 		<form id="adjust-speed" method="post" action="http://192.168.178.40/" target="blank_frame">
 			<b>Speed:</b> <input id="slider" type="range" name="speed" value="10" oninput="box.value=slider.value">
 			submit:<input id="box" type="submit" value="10" oninput="slider.value=box.value"/>
-		</form>
-	</div>	
+		</form>			
+	</div>
+	
+	<!--------- Post Methods for Turret Control ---------------->
+	<div class="attack">
+		<!--------- Turret rotate clockwise, anticlockwise and Fire ---------------->
+		<form id="turret-clockwise" method="post" action="http://192.168.178.40/" target="blank_frame">
+			<button class="bt_turn_turret_clk" type="submit" name="turnTurretClk" value="true"></button>
+			<button class="bt_fire" type="submit" name="fire" value="true"></button>
+			<button class="bt_turn_turret_anti_clk" type="submit" name="turnTurretAntiClk" value="true"></button>
+		</form>	
+	</div>
 	
 	<iframe id="blank_frame" name="blank_frame" style="display:none"></iframe>
 	<!--------------------------------------------------------->

@@ -8,6 +8,7 @@
 #include <bsp.h>
 #include <hw.h>
 #include <motor_control.h>
+#include <turret_control.h>
 
 
 void hal_init_raspberryPi()
@@ -43,6 +44,14 @@ void hal_init_raspberryPi()
         .gpio.gpio_motor2_stop                      = bsp_gpio_mtr2_stop
     };
 
+    static turret_config_t turret_cfg =
+    {
+        .turret.gpio_turret_dir_ctl_enable          = bsp_gpio_turret_dir_ctl_enable,
+        .turret.gpio_turret_mv_clockwise            = bsp_gpio_turret_mv_clockwise,
+        .turret.gpio_turret_mv_anticlockwise        = bsp_gpio_turret_mv_anticlockwise
+    };
+
     hw_config(&hw_cfg);
     motor_config(&motor_cfg);
+    turret_config(&turret_cfg);
 }

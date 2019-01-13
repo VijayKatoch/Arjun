@@ -5,15 +5,18 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../src/stack/hw.c \
-../src/stack/motor_control.c 
+../src/stack/motor_control.c \
+../src/stack/turret_control.c 
 
 OBJS += \
 ./src/stack/hw.o \
-./src/stack/motor_control.o 
+./src/stack/motor_control.o \
+./src/stack/turret_control.o 
 
 C_DEPS += \
 ./src/stack/hw.d \
-./src/stack/motor_control.d 
+./src/stack/motor_control.d \
+./src/stack/turret_control.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

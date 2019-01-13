@@ -1,0 +1,101 @@
+#! /bin/sh
+
+### BEGIN INIT INFO
+# Provides:          appweb
+# Required-Start:    $local_fs $remote_fs $network $syslog
+# Required-Stop:
+# Default-Start:     2 3 4 5
+# Default-Stop:
+# Short-Description: Appweb Embedded Web Server
+# Description:       Appweb Embedded Web Server
+### END INIT INFO
+
+#
+#   Startup script for Embedthis Appweb
+#   Copyright (c) All Rights Reserved. See copyright notice at the bottom of the file.
+#
+#   chkconfig: - 81 15
+#   description: Embedthis Appweb Embeddable Web Server
+#   processname: appweb #appman
+#   pidfile: /var/run/appweb.pid
+#
+###############################################################################
+
+NAME=appweb
+APPWEB_NAME="Embedthis Appweb"
+APPWEB_CMD="/usr/bin/${NAME}"
+APPWEB_DIR="/etc/appweb"
+
+PATH=/sbin:$PATH
+PIDFILE=${PIDFILE-/var/run/$NAME.pid}
+LOCKFILE=${LOCKFILE-/var/lock/$NAME}
+
+MANAGER_CMD=/usr/bin/appweb
+MANAGER_SWITCHES="--daemon --program $APPWEB_CMD --home $APPWEB_DIR --pidfile $PIDFILE run"
+
+
+start() {
+    local RETVAL=0
+    echo -n "Starting ${APPWEB_NAME}: "
+    cd /etc/appweb
+    RETVAL=sudo appweb
+    return ${RETVAL}
+}
+
+stop() {
+    local RETVAL=0
+    echo -n "Stopping ${APPWEB_NAME}: "
+    RETVAL=killall appweb
+    return ${RETVAL}
+}
+
+
+#
+#   Main script
+#
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        // TODO status ${MANAGER_CMD}
+        ;;
+    restart|reload|force-reload)
+        stop
+        start
+        ;;
+    condrestart)
+        if [ -f $LOCKFILE ]; then
+            stop
+            start
+        fi
+        ;;
+    *)
+        echo $"Usage: $0 {start|stop|restart|condrestart|status}"
+        exit 1
+esac
+exit $?
+
+################################################################################
+#
+#   Copyright (c) Embedthis Software. All Rights Reserved.
+#   The latest version of this code is available at https://www.embedthis.com
+#
+#   This software is open source; you can redistribute it and/or modify it
+#   under the terms of the GNU General Public License as published by the
+#   Free Software Foundation; either version 2 of the License, or (at your
+#   option) any later version.
+#
+#   This program is distributed WITHOUT ANY WARRANTY; without even the
+#   implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#   See the GNU General Public License for more details at:
+#   https://www.embedthis.com/downloads/gplLicense.html
+#
+#   This General Public License does NOT permit incorporating this software
+#   into proprietary programs. If you are unable to comply with the GPL, a
+#   commercial license for this software and support services are available
+#   from Embedthis Software at https://www.embedthis.com
+#

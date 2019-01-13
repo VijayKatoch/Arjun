@@ -8,6 +8,7 @@
 #include<stdio.h>
 #include <hw.h>
 #include <motor_control.h>
+#include <turret_control.h>
 
 #include "app_i.h"
 #include "appErrorCodes_i.h"
@@ -27,6 +28,9 @@ void app_init()
 
     motor2_setup();
     motor2_control_enable();
+
+    /*Turret setup*/
+    turret_dir_ctl_enable();
 }
 
 void handlePOSTRequest(POST_DATA *data)
@@ -35,6 +39,17 @@ void handlePOSTRequest(POST_DATA *data)
 
     switch(data->cmd)
     {
+        case turnTurretClk:
+            turret_mv_clockwise();
+            printf("Turret Clockwise %d %d\n", data->cmd, data->value);
+            break;
+        case fire:
+            printf("Fire %d %d\n", data->cmd, data->value);
+            break;
+        case turnTurretAntiClk:
+            turret_mv_anticlockwise();
+            printf("Turret Anti-Clockwise %d %d\n", data->cmd, data->value);
+            break;
         case forward:
             motor1_move_forward();
             motor2_move_forward();
